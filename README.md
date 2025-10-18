@@ -902,7 +902,890 @@
                         I specialize in facilitating large-scale application migrations, optimizing cloud costs, and supporting disaster recovery planning. Through containerization technologies, agile methodologies, and modern DevOps practices, I deliver efficient and reliable cloud solutions that drive organizational success.
                     </p>
                 </div>
-                <div class="about-stats">
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-header">
+                <div class="section-label">Expertise</div>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS</h3>
+                    <p>EC2, S3, Lambda, ECS, RDS, VPC</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-microsoft"></i>
+                    <h3>Azure & GCP</h3>
+                    <p>Multi-Cloud Architecture</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-linux"></i>
+                    <h3>Linux Admin</h3>
+                    <p>RHEL, Ubuntu, System Config</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-docker"></i>
+                    <h3>Docker</h3>
+                    <p>Containerization & Deployment</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-dharmachakra"></i>
+                    <h3>Kubernetes</h3>
+                    <p>K8s Orchestration</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>IaC & Scripting</h3>
+                    <p>Terraform, Python, Bash</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>CI/CD</h3>
+                    <p>Jenkins, GitLab CI, GitHub Actions</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security</h3>
+                    <p>Compliance & Best Practices</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Networking</h3>
+                    <p>VPN, Load Balancing, DNS</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="certifications">
+            <div class="section-header">
+                <div class="section-label">Certifications</div>
+                <h2 class="section-title">Professional Credentials</h2>
+                <p class="section-description">Industry-recognized certifications validating my cloud and IT expertise</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS Solutions Architect</h3>
+                    <p>Associate Level - Amazon Web Services</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS Cloud Practitioner</h3>
+                    <p>Foundational - Amazon Web Services</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-linux"></i>
+                    <h3>Linux Essentials</h3>
+                    <p>Linux Professional Institute (LPI)</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>CompTIA A+ CE</h3>
+                    <p>Continuing Education - CompTIA</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-header">
+                <div class="section-label">Portfolio</div>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">A selection of my recent cloud engineering and DevOps projects</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Cloud Optimization</h3>
+                        <p>Led infrastructure enhancement for e-commerce platform, implementing AWS load balancing and reducing latency. Integrated advanced analytics driving 20% sales increase during peak traffic periods.</p>
+                        <div class="project-tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">Load Balancing</span>
+                            <span class="tag">Analytics</span>
+                            <span class="tag">Scalability</span>
+                        </div>
+                        <button class="project-link" onclick="openGuide(1)">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Large-Scale Application Migration</h3>
+                        <p>Successfully led team to migrate 200+ applications to cloud infrastructure with zero downtime. Implemented comprehensive disaster recovery strategy ensuring 99.9% system uptime.</p>
+                        <div class="project-tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">Migration</span>
+                            <span class="tag">Zero Downtime</span>
+                            <span class="tag">DR Planning</span>
+                        </div>
+                        <button class="project-link" onclick="openGuide(2)">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Server Performance Enhancement</h3>
+                        <p>Optimized web server performance using NGINX, achieving 30% efficiency increase. Enhanced security protocols reducing vulnerabilities and improving site reliability for dynamic e-commerce platform.</p>
+                        <div class="project-tags">
+                            <span class="tag">NGINX</span>
+                            <span class="tag">Load Balancing</span>
+                            <span class="tag">Security</span>
+                            <span class="tag">Performance</span>
+                        </div>
+                        <button class="project-link" onclick="openGuide(3)">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Cloud Cost Optimization</h3>
+                        <p>Reduced cloud infrastructure costs by 30% through strategic resource allocation and optimization. Implemented automated monitoring and right-sizing recommendations for AWS resources.</p>
+                        <div class="project-tags">
+                            <span class="tag">Cost Optimization</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">Monitoring</span>
+                        </div>
+                        <button class="project-link" onclick="openGuide(4)">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Automation Through Scripting</h3>
+                        <p>Developed automated Python and Bash scripts resulting in 50% reduction of manual server maintenance tasks. Streamlined deployment processes and improved operational efficiency.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Bash</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">DevOps</span>
+                        </div>
+                        <button class="project-link" onclick="openGuide(5)">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hybrid Cloud Architecture</h3>
+                        <p>Defined cloud architecture for hybrid solutions ensuring compliance with cybersecurity regulations. Identified and remediated security risks enhancing overall system reliability.</p>
+                        <div class="project-tags">
+                            <span class="tag">Hybrid Cloud</span>
+                            <span class="tag">Security</span>
+                            <span class="tag">Compliance</span>
+                            <span class="tag">Multi-Cloud</span>
+                        </div>
+                        <button class="project-link" onclick="openGuide(6)">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="contact-card">
+                <h2>Let's Build Something Amazing</h2>
+                <p>I'm always interested in hearing about innovative projects and opportunities to create exceptional cloud solutions.</p>
+                <a href="mailto:Jubriladams75@gmail.com" class="btn btn-primary">Start a Conversation</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 JUBRIL J ADAMS • Cloud Engineer • Built with passion for technology</p>
+        </footer>
+    </div>
+
+    <!-- Project Guide Modal -->
+    <div class="modal" id="guideModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeGuide()"><i class="fas fa-times"></i></button>
+            <h2 class="modal-title" id="guideTitle"></h2>
+            <div id="guideContent"></div>
+        </div>
+    </div>
+
+    <!-- Hidden Resume Section (for PDF generation) -->
+    <div id="resumeContent" style="display: none; background: white; color: black; padding: 40px; font-family: Arial, sans-serif;">
+        <div style="text-align: center; margin-bottom: 30px; border-bottom: 3px solid #00fff7; padding-bottom: 20px;">
+            <h1 style="margin: 0; font-size: 2.5em;">JUBRIL J ADAMS</h1>
+            <p style="margin: 5px 0; font-size: 1.1em;">System Administrator | Multi-Cloud Engineer | DevOps Enthusiast</p>
+            <p style="margin: 5px 0;">📞 224-474-9556 | 📧 Jubriladams75@gmail.com | 🔗 linkedin.com/in/jubriladams</p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <h2 style="border-bottom: 2px solid #00fff7; padding-bottom: 10px; color: #00fff7;">PROFESSIONAL SUMMARY</h2>
+            <p>Cloud Solutions Architect at Secure&IT with 4+ years of experience designing and deploying scalable, secure, and cost-effective cloud infrastructures. Expertise in AWS, Azure, GCP, Linux system administration, and Infrastructure as Code. Proven track record in large-scale application migrations, cloud cost optimization, and disaster recovery planning.</p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <h2 style="border-bottom: 2px solid #00fff7; padding-bottom: 10px; color: #00fff7;">CORE COMPETENCIES</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <strong>Cloud Platforms:</strong> AWS, Azure, GCP<br>
+                    <strong>Containerization:</strong> Docker, Kubernetes, ECS<br>
+                    <strong>Infrastructure as Code:</strong> Terraform, CloudFormation
+                </div>
+                <div>
+                    <strong>CI/CD Tools:</strong> Jenkins, GitLab CI, GitHub Actions<br>
+                    <strong>Programming:</strong> Python, Bash, YAML<br>
+                    <strong>Specializations:</strong> Cost Optimization, Security, Load Balancing
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <h2 style="border-bottom: 2px solid #00fff7; padding-bottom: 10px; color: #00fff7;">KEY ACHIEVEMENTS</h2>
+            <ul style="line-height: 1.8;">
+                <li>Successfully migrated 200+ applications to cloud with zero downtime</li>
+                <li>Reduced cloud infrastructure costs by 30% through strategic optimization</li>
+                <li>Maintained 99.9% system uptime across all managed infrastructure</li>
+                <li>Achieved 30% efficiency increase in web server performance using NGINX</li>
+                <li>Reduced manual server maintenance tasks by 50% through automation</li>
+                <li>Designed hybrid cloud architecture ensuring compliance with cybersecurity regulations</li>
+            </ul>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <h2 style="border-bottom: 2px solid #00fff7; padding-bottom: 10px; color: #00fff7;">TECHNICAL SKILLS</h2>
+            <div style="line-height: 2;">
+                <strong>Cloud Services:</strong> EC2, S3, Lambda, ECS, RDS, VPC, Azure VMs, App Services, GCP Compute Engine<br>
+                <strong>DevOps Tools:</strong> Docker, Kubernetes, Terraform, Ansible, Jenkins<br>
+                <strong>Linux/Unix:</strong> RHEL, Ubuntu, CentOS, System Administration, Shell Scripting<br>
+                <strong>Networking:</strong> VPN Configuration, Load Balancing, DNS, VPC Management<br>
+                <strong>Monitoring:</strong> CloudWatch, Prometheus, Grafana, ELK Stack<br>
+                <strong>Security:</strong> IAM, Security Groups, Compliance, Best Practices
+            </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <h2 style="border-bottom: 2px solid #00fff7; padding-bottom: 10px; color: #00fff7;">PROFESSIONAL EXPERIENCE</h2>
+            <div style="margin-bottom: 20px;">
+                <h3 style="margin: 0; color: #333;">Cloud Solutions Architect</h3>
+                <p style="margin: 5px 0; font-style: italic;">Secure&IT | 4+ Years</p>
+                <ul style="line-height: 1.8; margin: 10px 0;">
+                    <li>Design and deploy scalable cloud infrastructures across AWS, Azure, and GCP</li>
+                    <li>Lead large-scale application migrations with zero downtime strategy</li>
+                    <li>Optimize cloud costs through resource allocation and automation</li>
+                    <li>Implement disaster recovery and business continuity planning</li>
+                    <li>Manage infrastructure security and compliance requirements</li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <h2 style="border-bottom: 2px solid #00fff7; padding-bottom: 10px; color: #00fff7;">CERTIFICATIONS</h2>
+            <ul style="line-height: 1.8;">
+                <li>AWS Solutions Architect Associate - Amazon Web Services</li>
+                <li>AWS Cloud Practitioner - Amazon Web Services</li>
+                <li>Linux Essentials - Linux Professional Institute (LPI)</li>
+                <li>CompTIA A+ Continuing Education - CompTIA</li>
+            </ul>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <h2 style="border-bottom: 2px solid #00fff7; padding-bottom: 10px; color: #00fff7;">PROJECTS & NOTABLE WORK</h2>
+            <div style="line-height: 1.8;">
+                <strong>E-Commerce Cloud Optimization:</strong> Implemented AWS load balancing, reduced latency, integrated analytics driving 20% sales increase<br><br>
+                <strong>Large-Scale Migration:</strong> Led migration of 200+ applications with zero downtime, established 99.9% uptime SLA<br><br>
+                <strong>Web Server Optimization:</strong> Implemented NGINX configuration achieving 30% performance improvement<br><br>
+                <strong>Hybrid Cloud Architecture:</strong> Designed compliant hybrid solutions with security hardening and risk remediation
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const guides = {
+            1: {
+                title: "E-Commerce Cloud Optimization Guide",
+                content: `
+                    <div class="guide-step">
+                        <h3><i class="fas fa-rocket"></i> Step 1: Infrastructure Assessment</h3>
+                        <p>Begin by analyzing the current e-commerce platform infrastructure:</p>
+                        <ul>
+                            <li>Evaluate existing server configurations and capacity</li>
+                            <li>Identify performance bottlenecks and latency issues</li>
+                            <li>Document current traffic patterns and peak loads</li>
+                            <li>Review security posture and compliance requirements</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-code"></i> Step 2: AWS Load Balancer Setup</h3>
+                        <p>Configure Application Load Balancer (ALB) for optimal distribution:</p>
+                        <ul>
+                            <li>Create target groups for backend EC2 instances</li>
+                            <li>Configure listener rules for path-based routing</li>
+                            <li>Enable sticky sessions for session persistence</li>
+                            <li>Set up health checks with appropriate thresholds</li>
+                            <li>Configure SSL/TLS certificates for secure communication</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-database"></i> Step 3: Database Optimization</h3>
+                        <p>Optimize database performance and scalability:</p>
+                        <ul>
+                            <li>Migrate to Amazon RDS with Multi-AZ deployment</li>
+                            <li>Implement read replicas for read-heavy operations</li>
+                            <li>Configure automated backups and point-in-time recovery</li>
+                            <li>Implement caching strategies using ElastiCache</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-chart-line"></i> Step 4: Analytics Integration</h3>
+                        <p>Implement analytics to drive business insights:</p>
+                        <ul>
+                            <li>Set up Amazon Kinesis for real-time data streaming</li>
+                            <li>Integrate AWS Analytics services for customer behavior analysis</li>
+                            <li>Create CloudWatch dashboards for performance monitoring</li>
+                            <li>Configure alerts for critical metrics and thresholds</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-check-circle"></i> Step 5: Testing & Validation</h3>
+                        <p>Ensure reliability before production deployment:</p>
+                        <ul>
+                            <li>Conduct load testing using Apache JMeter or similar tools</li>
+                            <li>Verify latency improvements and response times</li>
+                            <li>Test failover mechanisms and redundancy</li>
+                            <li>Validate analytics data accuracy</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-deploy"></i> Step 6: Deployment & Monitoring</h3>
+                        <p>Deploy to production with continuous monitoring:</p>
+                        <ul>
+                            <li>Execute blue-green deployment strategy</li>
+                            <li>Monitor real-time performance metrics</li>
+                            <li>Track sales conversion and revenue impact</li>
+                            <li>Prepare rollback procedures if needed</li>
+                        </ul>
+                    </div>
+                `
+            },
+            2: {
+                title: "Large-Scale Application Migration Guide",
+                content: `
+                    <div class="guide-step">
+                        <h3><i class="fas fa-list-check"></i> Step 1: Migration Planning & Assessment</h3>
+                        <p>Develop comprehensive migration strategy:</p>
+                        <ul>
+                            <li>Catalog all 200+ applications and dependencies</li>
+                            <li>Classify applications (6Rs: Rehost, Replatform, Refactor, Repurchase, Retire, Retain)</li>
+                            <li>Create migration wave timeline</li>
+                            <li>Establish success criteria and KPIs</li>
+                            <li>Document all risks and mitigation strategies</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-network-wired"></i> Step 2: AWS Environment Preparation</h3>
+                        <p>Set up cloud infrastructure foundation:</p>
+                        <ul>
+                            <li>Design VPC architecture with multi-AZ deployment</li>
+                            <li>Configure subnets, route tables, and NAT gateways</li>
+                            <li>Set up VPN/Direct Connect for on-premises connectivity</li>
+                            <li>Configure security groups and NACLs</li>
+                            <li>Set up IAM roles and policies</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-server"></i> Step 3: Database Migration Strategy</h3>
+                        <p>Execute database migration with minimal downtime:</p>
+                        <ul>
+                            <li>Use AWS Database Migration Service (DMS)</li>
+                            <li>Set up continuous replication for near-zero downtime</li>
+                            <li>Perform data validation and reconciliation</li>
+                            <li>Configure read replicas for high availability</li>
+                            <li>Implement backup and recovery procedures</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-boxes"></i> Step 4: Application Wave Migration</h3>
+                        <p>Execute wave-based migration approach:</p>
+                        <ul>
+                            <li>Wave 1: Non-critical applications (pilot phase)</li>
+                            <li>Wave 2: Supporting applications</li>
+                            <li>Wave 3: Critical business applications</li>
+                            <li>Monitor each wave before proceeding to next</li>
+                            <li>Document lessons learned from each wave</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-shield-alt"></i> Step 5: Zero-Downtime Implementation</h3>
+                        <p>Ensure business continuity during migration:</p>
+                        <ul>
+                            <li>Use DNS failover and Route 53 health checks</li>
+                            <li>Implement load balancing across on-premises and cloud</li>
+                            <li>Set up automated rollback procedures</li>
+                            <li>Maintain parallel systems during transition period</li>
+                            <li>Monitor performance metrics continuously</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-backup"></i> Step 6: Disaster Recovery Setup</h3>
+                        <p>Establish comprehensive DR strategy:</p>
+                        <ul>
+                            <li>Configure cross-region replication</li>
+                            <li>Set up automated backup schedules</li>
+                            <li>Create disaster recovery runbooks</li>
+                            <li>Conduct DR drills and testing</li>
+                            <li>Document RTO and RPO targets</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-chart-line"></i> Step 7: Post-Migration Optimization</h3>
+                        <p>Optimize and validate cloud infrastructure:</p>
+                        <ul>
+                            <li>Monitor performance against SLAs</li>
+                            <li>Optimize resource allocation and costs</li>
+                            <li>Implement auto-scaling policies</li>
+                            <li>Review and optimize security posture</li>
+                            <li>Plan decommissioning of on-premises resources</li>
+                        </ul>
+                    </div>
+                `
+            },
+            3: {
+                title: "Web Server Performance Enhancement Guide",
+                content: `
+                    <div class="guide-step">
+                        <h3><i class="fas fa-server"></i> Step 1: Current Performance Baseline</h3>
+                        <p>Establish baseline metrics before optimization:</p>
+                        <ul>
+                            <li>Measure current response times and throughput</li>
+                            <li>Identify slow endpoints and bottlenecks</li>
+                            <li>Document current CPU, memory, and disk usage</li>
+                            <li>Analyze web server logs for patterns</li>
+                            <li>Set up monitoring dashboards</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-download"></i> Step 2: NGINX Installation & Configuration</h3>
+                        <p>Deploy and configure NGINX web server:</p>
+                        <ul>
+                            <li>Install NGINX on Linux (RHEL/Ubuntu)</li>
+                            <li>Configure worker processes and connections</li>
+                            <li>Enable gzip compression for static content</li>
+                            <li>Set up SSL/TLS with HTTP/2 support</li>
+                            <li>Configure caching headers for browser caching</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-balance-scale"></i> Step 3: Load Balancing Setup</h3>
+                        <p>Distribute traffic across multiple backend servers:</p>
+                        <ul>
+                            <li>Configure upstream backend servers</li>
+                            <li>Set up load balancing algorithms (round-robin, least connections)</li>
+                            <li>Enable session persistence if required</li>
+                            <li>Configure health checks for backend monitoring</li>
+                            <li>Implement connection pooling</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-tachometer-alt"></i> Step 4: Performance Tuning</h3>
+                        <p>Optimize NGINX configuration:</p>
+                        <ul>
+                            <li>Increase worker_connections for better concurrency</li>
+                            <li>Configure buffer sizes for large uploads/downloads</li>
+                            <li>Enable keep-alive connections</li>
+                            <li>Optimize TCP settings and timeouts</li>
+                            <li>Configure request throttling and rate limiting</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-lock"></i> Step 5: Security Hardening</h3>
+                        <p>Strengthen security posture:</p>
+                        <ul>
+                            <li>Configure WAF (Web Application Firewall) rules</li>
+                            <li>Implement rate limiting and DDoS protection</li>
+                            <li>Set up security headers (HSTS, X-Frame-Options, CSP)</li>
+                            <li>Configure SSL/TLS best practices</li>
+                            <li>Enable logging and monitoring for security events</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-caching"></i> Step 6: Caching Strategy</h3>
+                        <p>Implement multi-layer caching:</p>
+                        <ul>
+                            <li>Set up Redis/Memcached for application caching</li>
+                            <li>Configure NGINX reverse proxy caching</li>
+                            <li>Implement cache invalidation strategies</li>
+                            <li>Set up CDN integration for static content</li>
+                            <li>Monitor cache hit ratios</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-chart-bar"></i> Step 7: Testing & Validation</h3>
+                        <p>Verify performance improvements:</p>
+                        <ul>
+                            <li>Conduct load testing with Apache JMeter</li>
+                            <li>Compare response times to baseline</li>
+                            <li>Verify 30% efficiency improvement target</li>
+                            <li>Test failover and high availability</li>
+                            <li>Validate security configurations</li>
+                        </ul>
+                    </div>
+                `
+            },
+            4: {
+                title: "Cloud Cost Optimization Guide",
+                content: `
+                    <div class="guide-step">
+                        <h3><i class="fas fa-chart-pie"></i> Step 1: Cost Analysis & Assessment</h3>
+                        <p>Understand current spending patterns:</p>
+                        <ul>
+                            <li>Analyze AWS Cost Explorer reports</li>
+                            <li>Identify spending by service and account</li>
+                            <li>Spot unused or underutilized resources</li>
+                            <li>Review cost trends over time</li>
+                            <li>Establish baseline and optimization targets</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-recycle"></i> Step 2: Resource Right-Sizing</h3>
+                        <p>Match resources to actual needs:</p>
+                        <ul>
+                            <li>Review EC2 instance utilization metrics</li>
+                            <li>Downsize over-provisioned instances</li>
+                            <li>Identify idle resources for termination</li>
+                            <li>Convert on-demand to reserved instances</li>
+                            <li>Use Compute Optimizer recommendations</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-ticket-alt"></i> Step 3: Reserved Instances & Savings Plans</h3>
+                        <p>Leverage commitment discounts:</p>
+                        <ul>
+                            <li>Analyze usage patterns to determine RI eligibility</li>
+                            <li>Purchase 1-year or 3-year reserved instances</li>
+                            <li>Consider Savings Plans for flexible coverage</li>
+                            <li>Blend on-demand with reserved instances</li>
+                            <li>Save 30-70% on compute costs</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-storage"></i> Step 4: Storage Optimization</h3>
+                        <p>Reduce storage costs:</p>
+                        <ul>
+                            <li>Implement S3 lifecycle policies for archival</li>
+                            <li>Move infrequent data to Glacier/Glacier Deep Archive</li>
+                            <li>Delete unused snapshots and volumes</li>
+                            <li>Compress and deduplicate data</li>
+                            <li>Monitor storage growth trends</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-cloud-download-alt"></i> Step 5: Data Transfer Optimization</h3>
+                        <p>Minimize data transfer costs:</p>
+                        <ul>
+                            <li>Use VPC endpoints to avoid NAT gateway charges</li>
+                            <li>Configure CloudFront for content distribution</li>
+                            <li>Optimize inter-AZ data transfer</li>
+                            <li>Implement efficient caching strategies</li>
+                            <li>Monitor data transfer metrics</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-robot"></i> Step 6: Automation & Scheduling</h3>
+                        <p>Implement automated cost controls:</p>
+                        <ul>
+                            <li>Create Lambda functions for resource scheduling</li>
+                            <li>Auto-shutdown non-production environments after hours</li>
+                            <li>Implement auto-scaling policies</li>
+                            <li>Use Systems Manager for patch management</li>
+                            <li>Configure CloudWatch alerts for budget thresholds</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-monitor"></i> Step 7: Monitoring & Continuous Optimization</h3>
+                        <p>Maintain ongoing cost efficiency:</p>
+                        <ul>
+                            <li>Set up Cost Anomaly Detection</li>
+                            <li>Create monthly cost reports</li>
+                            <li>Schedule regular cost reviews</li>
+                            <li>Track savings against 30% target</li>
+                            <li>Identify emerging optimization opportunities</li>
+                        </ul>
+                    </div>
+                `
+            },
+            5: {
+                title: "Automation Through Scripting Guide",
+                content: `
+                    <div class="guide-step">
+                        <h3><i class="fas fa-file-code"></i> Step 1: Identify Automation Opportunities</h3>
+                        <p>Determine which tasks can be automated:</p>
+                        <ul>
+                            <li>Audit manual server maintenance tasks</li>
+                            <li>Document repetitive processes and workflows</li>
+                            <li>Identify time-consuming administrative tasks</li>
+                            <li>Prioritize by frequency and time impact</li>
+                            <li>Establish ROI for automation efforts</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-python"></i> Step 2: Python Script Development</h3>
+                        <p>Create Python scripts for complex automation:</p>
+                        <ul>
+                            <li>Set up Python development environment</li>
+                            <li>Develop scripts for AWS API interactions</li>
+                            <li>Create system monitoring and alerting scripts</li>
+                            <li>Build automated backup and recovery scripts</li>
+                            <li>Implement error handling and logging</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-terminal"></i> Step 3: Bash Script Creation</h3>
+                        <p>Develop bash scripts for shell-level automation:</p>
+                        <ul>
+                            <li>Create startup/shutdown automation scripts</li>
+                            <li>Develop server configuration scripts</li>
+                            <li>Build log rotation and cleanup scripts</li>
+                            <li>Create deployment and update scripts</li>
+                            <li>Implement performance monitoring scripts</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-tasks"></i> Step 4: Cron Job Scheduling</h3>
+                        <p>Schedule automated task execution:</p>
+                        <ul>
+                            <li>Configure cron jobs for regular execution</li>
+                            <li>Set up proper logging for cron tasks</li>
+                            <li>Implement email notifications for failures</li>
+                            <li>Create backup and archival schedules</li>
+                            <li>Monitor cron execution and performance</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-ship"></i> Step 5: CI/CD Pipeline Integration</h3>
+                        <p>Integrate automation into deployment pipeline:</p>
+                        <ul>
+                            <li>Set up Jenkins or GitHub Actions workflows</li>
+                            <li>Create automated build and test pipelines</li>
+                            <li>Implement automated deployment scripts</li>
+                            <li>Configure automated rollback procedures</li>
+                            <li>Enable continuous monitoring and notifications</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-code-review"></i> Step 6: Code Quality & Testing</h3>
+                        <p>Ensure script reliability:</p>
+                        <ul>
+                            <li>Implement unit testing for Python scripts</li>
+                            <li>Use ShellCheck for Bash script validation</li>
+                            <li>Create test automation frameworks</li>
+                            <li>Document script functionality and usage</li>
+                            <li>Perform peer code reviews</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-chart-line"></i> Step 7: Measurement & Optimization</h3>
+                        <p>Track automation impact:</p>
+                        <ul>
+                            <li>Measure time savings from automation</li>
+                            <li>Track manual task reduction (50% target)</li>
+                            <li>Monitor error rates and incidents</li>
+                            <li>Calculate cost savings</li>
+                            <li>Plan additional automation opportunities</li>
+                        </ul>
+                    </div>
+                `
+            },
+            6: {
+                title: "Hybrid Cloud Architecture Guide",
+                content: `
+                    <div class="guide-step">
+                        <h3><i class="fas fa-building"></i> Step 1: Architecture Planning</h3>
+                        <p>Design hybrid cloud infrastructure:</p>
+                        <ul>
+                            <li>Define workload placement strategy</li>
+                            <li>Identify applications for on-premises vs cloud</li>
+                            <li>Design data residency and compliance requirements</li>
+                            <li>Plan network connectivity architecture</li>
+                            <li>Document service integration points</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-network-wired"></i> Step 2: Connectivity Setup</h3>
+                        <p>Establish secure connection between environments:</p>
+                        <ul>
+                            <li>Implement AWS Direct Connect or VPN</li>
+                            <li>Configure site-to-site VPN with redundancy</li>
+                            <li>Set up BGP routing for failover</li>
+                            <li>Implement QoS for traffic prioritization</li>
+                            <li>Monitor network latency and throughput</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-shield-alt"></i> Step 3: Security & Compliance</h3>
+                        <p>Ensure compliance with security requirements:</p>
+                        <ul>
+                            <li>Implement encryption for data in transit</li>
+                            <li>Configure encryption for data at rest</li>
+                            <li>Set up identity federation with AD/LDAP</li>
+                            <li>Implement security monitoring and logging</li>
+                            <li>Conduct security compliance audit</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-key"></i> Step 4: Identity & Access Management</h3>
+                        <p>Manage identities across hybrid environment:</p>
+                        <ul>
+                            <li>Configure AWS IAM with federated identities</li>
+                            <li>Set up single sign-on (SSO) integration</li>
+                            <li>Implement role-based access control (RBAC)</li>
+                            <li>Configure multi-factor authentication (MFA)</li>
+                            <li>Monitor access and audit logs</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-database"></i> Step 5: Data Management</h3>
+                        <p>Synchronize data across environments:</p>
+                        <ul>
+                            <li>Implement data replication strategies</li>
+                            <li>Configure backup and recovery procedures</li>
+                            <li>Set up data synchronization services</li>
+                            <li>Implement data residency policies</li>
+                            <li>Monitor data consistency and integrity</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Step 6: Risk Identification & Remediation</h3>
+                        <p>Address security vulnerabilities:</p>
+                        <ul>
+                            <li>Conduct security vulnerability assessment</li>
+                            <li>Identify compliance gaps</li>
+                            <li>Develop remediation plans</li>
+                            <li>Implement security patches and updates</li>
+                            <li>Configure security groups and NACLs</li>
+                        </ul>
+                    </div>
+
+                    <div class="guide-step">
+                        <h3><i class="fas fa-check-double"></i> Step 7: Validation & Testing</h3>
+                        <p>Verify architecture reliability:</p>
+                        <ul>
+                            <li>Test failover scenarios</li>
+                            <li>Validate compliance requirements</li>
+                            <li>Conduct security penetration testing</li>
+                            <li>Verify data consistency</li>
+                            <li>Document lessons learned and best practices</li>
+                        </ul>
+                    </div>
+                `
+            }
+        };
+
+        function openGuide(projectId) {
+            const guide = guides[projectId];
+            if (guide) {
+                document.getElementById('guideTitle').textContent = guide.title;
+                document.getElementById('guideContent').innerHTML = guide.content;
+                document.getElementById('guideModal').classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closeGuide() {
+            document.getElementById('guideModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function downloadResume() {
+            const element = document.getElementById('resumeContent');
+            const opt = {
+                margin: 10,
+                filename: 'JUBRIL_J_ADAMS_Resume.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            };
+            html2pdf().set(opt).from(element).save();
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('guideModal');
+            if (event.target == modal) {
+                closeGuide();
+            }
+        }
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>    <div class="about-stats">
                     <div class="stat-card">
                         <div class="stat-number">4+</div>
                         <div class="stat-label">Years Experience</div>
