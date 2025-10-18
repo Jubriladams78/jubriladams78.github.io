@@ -20,6 +20,15 @@
         .fa-code:before { content: "\f121"; }
         .fa-dharmachakra:before { content: "\f655"; }
         .fa-arrow-right:before { content: "\f061"; }
+        .fa-shield-alt:before { content: "\f3ed"; }
+        .fa-database:before { content: "\f1c0"; }
+        .fa-linux:before { content: "\f17c"; }
+        .fa-network-wired:before { content: "\f6ff"; }
+        .fa-shopping-cart:before { content: "\f07a"; }
+        .fa-cloud-upload-alt:before { content: "\f382"; }
+        .fa-dollar-sign:before { content: "\f155"; }
+        .fa-robot:before { content: "\f544"; }
+        .fa-certificate:before { content: "\f0a3"; }
         
         .fab, .fas, .fa {
             font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
@@ -718,6 +727,7 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -728,7 +738,7 @@
         <header>
             <div class="hero-badge">💡 Available for new opportunities</div>
             <h1 class="hero-title">JUBRIL J ADAMS</h1>
-            <p class="hero-subtitle">Cloud Engineer • DevOps Architect • Palatine, IL USA</p>
+            <p class="hero-subtitle">System Administrator | Multi-Cloud Engineer (AWS, Azure, GCP) | DevOps Enthusiast</p>
             <div class="hero-cta">
                 <a href="#projects" class="btn btn-primary">View My Work</a>
                 <a href="#contact" class="btn btn-secondary">Get In Touch</a>
@@ -750,24 +760,24 @@
             <div class="about-grid">
                 <div class="about-text">
                     <p>
-                        I'm a passionate Cloud Engineer specializing in designing and implementing scalable, secure, and cost-effective cloud infrastructure solutions. With deep expertise in AWS, Azure, and modern DevOps practices, I help organizations accelerate their digital transformation.
+                        I'm a Cloud Solutions Architect at Secure&IT with over 4 years of experience designing and deploying scalable, secure, and cost-effective cloud infrastructures. My expertise spans AWS, Azure, GCP, Linux system administration, and infrastructure as code (IaC).
                     </p>
                     <p>
-                        My approach combines technical excellence with strategic thinking, ensuring that every solution not only works but excels in performance, reliability, and maintainability.
+                        I specialize in facilitating large-scale application migrations, optimizing cloud costs, and supporting disaster recovery planning. Through containerization technologies, agile methodologies, and modern DevOps practices, I deliver efficient and reliable cloud solutions that drive organizational success.
                     </p>
                 </div>
                 <div class="about-stats">
                     <div class="stat-card">
-                        <div class="stat-number">5+</div>
+                        <div class="stat-number">4+</div>
                         <div class="stat-label">Years Experience</div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-number">50+</div>
-                        <div class="stat-label">Projects Completed</div>
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Apps Migrated</div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-label">Certifications</div>
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">System Uptime</div>
                     </div>
                 </div>
             </div>
@@ -782,22 +792,32 @@
                 <div class="skill-card">
                     <i class="fab fa-aws"></i>
                     <h3>AWS</h3>
-                    <p>EC2, S3, Lambda, ECS, RDS, CloudFormation</p>
+                    <p>EC2, S3, Lambda, ECS, RDS, VPC</p>
                 </div>
                 <div class="skill-card">
                     <i class="fab fa-microsoft"></i>
-                    <h3>Azure</h3>
-                    <p>VMs, Storage, Functions, DevOps</p>
+                    <h3>Azure & GCP</h3>
+                    <p>Multi-Cloud Architecture</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-linux"></i>
+                    <h3>Linux Admin</h3>
+                    <p>RHEL, Ubuntu, System Config</p>
                 </div>
                 <div class="skill-card">
                     <i class="fab fa-docker"></i>
                     <h3>Docker</h3>
-                    <p>Containerization & Orchestration</p>
+                    <p>Containerization & Deployment</p>
                 </div>
                 <div class="skill-card">
                     <i class="fas fa-dharmachakra"></i>
                     <h3>Kubernetes</h3>
-                    <p>K8s, Helm, Service Mesh</p>
+                    <p>K8s Orchestration</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>IaC & Scripting</h3>
+                    <p>Terraform, Python, Bash</p>
                 </div>
                 <div class="skill-card">
                     <i class="fas fa-code-branch"></i>
@@ -805,9 +825,44 @@
                     <p>Jenkins, GitLab CI, GitHub Actions</p>
                 </div>
                 <div class="skill-card">
-                    <i class="fas fa-code"></i>
-                    <h3>IaC</h3>
-                    <p>Terraform, Ansible, Pulumi</p>
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security</h3>
+                    <p>Compliance & Best Practices</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Networking</h3>
+                    <p>VPN, Load Balancing, DNS</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="certifications">
+            <div class="section-header">
+                <div class="section-label">Certifications</div>
+                <h2 class="section-title">Professional Credentials</h2>
+                <p class="section-description">Industry-recognized certifications validating my cloud and IT expertise</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS Solutions Architect</h3>
+                    <p>Associate Level - Amazon Web Services</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS Cloud Practitioner</h3>
+                    <p>Foundational - Amazon Web Services</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-linux"></i>
+                    <h3>Linux Essentials</h3>
+                    <p>Linux Professional Institute (LPI)</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>CompTIA A+ CE</h3>
+                    <p>Continuing Education - CompTIA</p>
                 </div>
             </div>
         </section>
@@ -821,19 +876,38 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <i class="fas fa-cloud"></i>
+                        <i class="fas fa-shopping-cart"></i>
                     </div>
                     <div class="project-content">
-                        <h3>Multi-Cloud Architecture</h3>
-                        <p>Designed and deployed a hybrid cloud infrastructure spanning AWS and Azure with automated failover, reducing downtime by 99.9% and cutting costs by 40%.</p>
+                        <h3>E-Commerce Cloud Optimization</h3>
+                        <p>Led infrastructure enhancement for e-commerce platform, implementing AWS load balancing and reducing latency. Integrated advanced analytics driving 20% sales increase during peak traffic periods.</p>
                         <div class="project-tags">
                             <span class="tag">AWS</span>
-                            <span class="tag">Azure</span>
-                            <span class="tag">Terraform</span>
-                            <span class="tag">Python</span>
+                            <span class="tag">Load Balancing</span>
+                            <span class="tag">Analytics</span>
+                            <span class="tag">Scalability</span>
                         </div>
-                        <a href="#" class="project-link">
-                            View Case Study <i class="fas fa-arrow-right"></i>
+                        <a href="#project1-guide" class="project-link">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Large-Scale Application Migration</h3>
+                        <p>Successfully led team to migrate 200+ applications to cloud infrastructure with zero downtime. Implemented comprehensive disaster recovery strategy ensuring 99.9% system uptime.</p>
+                        <div class="project-tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">Migration</span>
+                            <span class="tag">Zero Downtime</span>
+                            <span class="tag">DR Planning</span>
+                        </div>
+                        <a href="#project2-guide" class="project-link">
+                            View Details <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -843,35 +917,73 @@
                         <i class="fas fa-server"></i>
                     </div>
                     <div class="project-content">
-                        <h3>Kubernetes Platform</h3>
-                        <p>Built enterprise-grade Kubernetes platform with auto-scaling, monitoring, and GitOps workflows. Improved deployment frequency by 10x while maintaining 99.95% uptime.</p>
+                        <h3>Web Server Performance Enhancement</h3>
+                        <p>Optimized web server performance using NGINX, achieving 30% efficiency increase. Enhanced security protocols reducing vulnerabilities and improving site reliability for dynamic e-commerce platform.</p>
                         <div class="project-tags">
-                            <span class="tag">Kubernetes</span>
-                            <span class="tag">Docker</span>
-                            <span class="tag">ArgoCD</span>
-                            <span class="tag">Prometheus</span>
+                            <span class="tag">NGINX</span>
+                            <span class="tag">Load Balancing</span>
+                            <span class="tag">Security</span>
+                            <span class="tag">Performance</span>
                         </div>
-                        <a href="#" class="project-link">
-                            View Case Study <i class="fas fa-arrow-right"></i>
+                        <a href="#project3-guide" class="project-link">
+                            View Details <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-image">
-                        <i class="fas fa-rocket"></i>
+                        <i class="fas fa-dollar-sign"></i>
                     </div>
                     <div class="project-content">
-                        <h3>CI/CD Pipeline Automation</h3>
-                        <p>Engineered fully automated CI/CD pipeline with integrated security scanning, reducing deployment time from hours to minutes while improving code quality.</p>
+                        <h3>Cloud Cost Optimization</h3>
+                        <p>Reduced cloud infrastructure costs by 30% through strategic resource allocation and optimization. Implemented automated monitoring and right-sizing recommendations for AWS resources.</p>
                         <div class="project-tags">
-                            <span class="tag">GitHub Actions</span>
-                            <span class="tag">Docker</span>
-                            <span class="tag">AWS ECS</span>
-                            <span class="tag">SonarQube</span>
+                            <span class="tag">Cost Optimization</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">Monitoring</span>
                         </div>
-                        <a href="#" class="project-link">
-                            View Case Study <i class="fas fa-arrow-right"></i>
+                        <a href="#project4-guide" class="project-link">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Automation Through Scripting</h3>
+                        <p>Developed automated Python and Bash scripts resulting in 50% reduction of manual server maintenance tasks. Streamlined deployment processes and improved operational efficiency.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Bash</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">DevOps</span>
+                        </div>
+                        <a href="#project5-guide" class="project-link">
+                            View Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hybrid Cloud Architecture</h3>
+                        <p>Defined cloud architecture for hybrid solutions ensuring compliance with cybersecurity regulations. Identified and remediated security risks enhancing overall system reliability.</p>
+                        <div class="project-tags">
+                            <span class="tag">Hybrid Cloud</span>
+                            <span class="tag">Security</span>
+                            <span class="tag">Compliance</span>
+                            <span class="tag">Multi-Cloud</span>
+                        </div>
+                        <a href="#project6-guide" class="project-link">
+                            View Details <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
