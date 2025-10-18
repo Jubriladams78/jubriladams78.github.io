@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JUBRIL J ADAMS - Cloud Engineer Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <style>
         /* Font Awesome Icons as Unicode */
         .fa-github:before { content: "\f09b"; }
@@ -29,6 +30,9 @@
         .fa-dollar-sign:before { content: "\f155"; }
         .fa-robot:before { content: "\f544"; }
         .fa-certificate:before { content: "\f0a3"; }
+        .fa-download:before { content: "\f019"; }
+        .fa-times:before { content: "\f00d"; }
+        .fa-chevron-down:before { content: "\f078"; }
         
         .fab, .fas, .fa {
             font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
@@ -56,8 +60,7 @@
             font-display: block;
             src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2) format("woff2");
         }
-    </style>
-    <style>
+
         * {
             margin: 0;
             padding: 0;
@@ -199,6 +202,32 @@
             width: 100%;
         }
 
+        .nav-actions {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .download-btn {
+            padding: 10px 20px;
+            background: var(--accent-cyan);
+            color: var(--bg-dark);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 255, 247, 0.3);
+        }
+
         /* Hero Section */
         header {
             padding: 200px 0 150px;
@@ -255,6 +284,11 @@
             position: relative;
             overflow: hidden;
             font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
         }
 
         .btn-primary {
@@ -562,10 +596,102 @@
             text-decoration: none;
             font-weight: 700;
             transition: all 0.3s ease;
+            cursor: pointer;
+            background: none;
+            border: none;
         }
 
         .project-link:hover {
             gap: 15px;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(5px);
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: var(--bg-card);
+            padding: 50px;
+            border-radius: 30px;
+            max-width: 900px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            border: 1px solid rgba(0, 255, 247, 0.3);
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: var(--accent-cyan);
+            font-size: 2rem;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .modal-close:hover {
+            transform: rotate(90deg);
+        }
+
+        .modal-title {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .guide-step {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(0, 255, 247, 0.05);
+            border-left: 4px solid var(--accent-cyan);
+            border-radius: 10px;
+        }
+
+        .guide-step h3 {
+            color: var(--accent-cyan);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.3rem;
+        }
+
+        .guide-step p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .guide-step ul {
+            color: var(--text-secondary);
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+
+        .guide-step li {
+            margin-bottom: 8px;
         }
 
         /* Contact Section */
@@ -711,6 +837,11 @@
             .contact-card {
                 padding: 50px 30px;
             }
+
+            .modal-content {
+                padding: 30px;
+                width: 95%;
+            }
         }
     </style>
 </head>
@@ -731,6 +862,11 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="nav-actions">
+                <button class="download-btn" onclick="downloadResume()">
+                    <i class="fas fa-download"></i> Download Resume
+                </button>
+            </div>
         </div>
     </nav>
 
@@ -780,227 +916,3 @@
                         <div class="stat-label">System Uptime</div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="section" id="skills">
-            <div class="section-header">
-                <div class="section-label">Expertise</div>
-                <h2 class="section-title">Skills & Technologies</h2>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fab fa-aws"></i>
-                    <h3>AWS</h3>
-                    <p>EC2, S3, Lambda, ECS, RDS, VPC</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-microsoft"></i>
-                    <h3>Azure & GCP</h3>
-                    <p>Multi-Cloud Architecture</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-linux"></i>
-                    <h3>Linux Admin</h3>
-                    <p>RHEL, Ubuntu, System Config</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-docker"></i>
-                    <h3>Docker</h3>
-                    <p>Containerization & Deployment</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-dharmachakra"></i>
-                    <h3>Kubernetes</h3>
-                    <p>K8s Orchestration</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-code"></i>
-                    <h3>IaC & Scripting</h3>
-                    <p>Terraform, Python, Bash</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-code-branch"></i>
-                    <h3>CI/CD</h3>
-                    <p>Jenkins, GitLab CI, GitHub Actions</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>Security</h3>
-                    <p>Compliance & Best Practices</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-network-wired"></i>
-                    <h3>Networking</h3>
-                    <p>VPN, Load Balancing, DNS</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="section" id="certifications">
-            <div class="section-header">
-                <div class="section-label">Certifications</div>
-                <h2 class="section-title">Professional Credentials</h2>
-                <p class="section-description">Industry-recognized certifications validating my cloud and IT expertise</p>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fab fa-aws"></i>
-                    <h3>AWS Solutions Architect</h3>
-                    <p>Associate Level - Amazon Web Services</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-aws"></i>
-                    <h3>AWS Cloud Practitioner</h3>
-                    <p>Foundational - Amazon Web Services</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-linux"></i>
-                    <h3>Linux Essentials</h3>
-                    <p>Linux Professional Institute (LPI)</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-certificate"></i>
-                    <h3>CompTIA A+ CE</h3>
-                    <p>Continuing Education - CompTIA</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="section" id="projects">
-            <div class="section-header">
-                <div class="section-label">Portfolio</div>
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-description">A selection of my recent cloud engineering and DevOps projects</p>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>E-Commerce Cloud Optimization</h3>
-                        <p>Led infrastructure enhancement for e-commerce platform, implementing AWS load balancing and reducing latency. Integrated advanced analytics driving 20% sales increase during peak traffic periods.</p>
-                        <div class="project-tags">
-                            <span class="tag">AWS</span>
-                            <span class="tag">Load Balancing</span>
-                            <span class="tag">Analytics</span>
-                            <span class="tag">Scalability</span>
-                        </div>
-                        <a href="#project1-guide" class="project-link">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-cloud-upload-alt"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Large-Scale Application Migration</h3>
-                        <p>Successfully led team to migrate 200+ applications to cloud infrastructure with zero downtime. Implemented comprehensive disaster recovery strategy ensuring 99.9% system uptime.</p>
-                        <div class="project-tags">
-                            <span class="tag">AWS</span>
-                            <span class="tag">Migration</span>
-                            <span class="tag">Zero Downtime</span>
-                            <span class="tag">DR Planning</span>
-                        </div>
-                        <a href="#project2-guide" class="project-link">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-server"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Web Server Performance Enhancement</h3>
-                        <p>Optimized web server performance using NGINX, achieving 30% efficiency increase. Enhanced security protocols reducing vulnerabilities and improving site reliability for dynamic e-commerce platform.</p>
-                        <div class="project-tags">
-                            <span class="tag">NGINX</span>
-                            <span class="tag">Load Balancing</span>
-                            <span class="tag">Security</span>
-                            <span class="tag">Performance</span>
-                        </div>
-                        <a href="#project3-guide" class="project-link">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-dollar-sign"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Cloud Cost Optimization</h3>
-                        <p>Reduced cloud infrastructure costs by 30% through strategic resource allocation and optimization. Implemented automated monitoring and right-sizing recommendations for AWS resources.</p>
-                        <div class="project-tags">
-                            <span class="tag">Cost Optimization</span>
-                            <span class="tag">AWS</span>
-                            <span class="tag">Automation</span>
-                            <span class="tag">Monitoring</span>
-                        </div>
-                        <a href="#project4-guide" class="project-link">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Automation Through Scripting</h3>
-                        <p>Developed automated Python and Bash scripts resulting in 50% reduction of manual server maintenance tasks. Streamlined deployment processes and improved operational efficiency.</p>
-                        <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">Bash</span>
-                            <span class="tag">Automation</span>
-                            <span class="tag">DevOps</span>
-                        </div>
-                        <a href="#project5-guide" class="project-link">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Hybrid Cloud Architecture</h3>
-                        <p>Defined cloud architecture for hybrid solutions ensuring compliance with cybersecurity regulations. Identified and remediated security risks enhancing overall system reliability.</p>
-                        <div class="project-tags">
-                            <span class="tag">Hybrid Cloud</span>
-                            <span class="tag">Security</span>
-                            <span class="tag">Compliance</span>
-                            <span class="tag">Multi-Cloud</span>
-                        </div>
-                        <a href="#project6-guide" class="project-link">
-                            View Details <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section" id="contact">
-            <div class="contact-card">
-                <h2>Let's Build Something Amazing</h2>
-                <p>I'm always interested in hearing about innovative projects and opportunities to create exceptional cloud solutions.</p>
-                <a href="mailto:Jubriladams75@gmail.com" class="btn btn-primary">Start a Conversation</a>
-            </div>
-        </section>
-
-        <footer>
-            <p>&copy; 2025 JUBRIL J ADAMS • Cloud Engineer • Built with passion for technology</p>
-        </footer>
-    </div>
-</body>
-</html>
