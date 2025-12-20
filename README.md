@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -606,3 +605,332 @@
             </h2>
             <div class="projects-grid">
                 <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-feather="cloud"></i>
+                        </div>
+                        <div>
+                            <h4>AWS Three-Tier Web Application Lab</h4>
+                        </div>
+                    </div>
+                    <p>Designed and deployed a three-tier web application in a lab environment using an Application Load Balancer, Auto Scaling groups, EC2, and RDS to practice high availability, networking, and backup strategies.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">EC2</span>
+                        <span class="tech-tag">RDS</span>
+                        <span class="tech-tag">VPC</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-feather="code"></i>
+                        </div>
+                        <div>
+                            <h4>Infrastructure as Code for AWS VPC</h4>
+                        </div>
+                    </div>
+                    <p>Built reusable Terraform configurations to provision VPCs, subnets, EC2 instances, and security groups, enabling consistent, version-controlled environments for testing and learning.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Terraform</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">CloudFormation</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-feather="server"></i>
+                        </div>
+                        <div>
+                            <h4>CI/CD Pipeline for a Demo App</h4>
+                        </div>
+                    </div>
+                    <p>Implemented a CI/CD pipeline for a sample application using GitHub Actions and Jenkins in a lab environment, including automated builds, basic tests, and deployment to a test server.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Jenkins</span>
+                        <span class="tech-tag">GitHub Actions</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-feather="shield"></i>
+                        </div>
+                        <div>
+                            <h4>Linux and Windows Home Lab with AD</h4>
+                        </div>
+                    </div>
+                    <p>Set up a mixed Linux and Windows lab with Active Directory, group policies, and secure remote access to practice identity, access control, and basic hardening.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Active Directory</span>
+                        <span class="tech-tag">Windows Server</span>
+                        <span class="tech-tag">Linux</span>
+                        <span class="tech-tag">VPN</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-feather="cpu"></i>
+                        </div>
+                        <div>
+                            <h4>Network Fundamentals Lab</h4>
+                        </div>
+                    </div>
+                    <p>Practiced routing protocols and network troubleshooting in a virtual lab using EIGRP, OSPF, and static routing to strengthen core networking fundamentals.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">TCP/IP</span>
+                        <span class="tech-tag">EIGRP</span>
+                        <span class="tech-tag">OSPF</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-feather="file-text"></i>
+                        </div>
+                        <div>
+                            <h4>Automation & Scripting Toolkit</h4>
+                        </div>
+                    </div>
+                    <p>Developed a small collection of Python, Bash, and PowerShell scripts to automate routine admin tasks, including log cleanup, basic checks, and user account management, with documentation on GitHub.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Bash</span>
+                        <span class="tech-tag">PowerShell</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-bg">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Cloud Platforms</h4>
+                    <ul>
+                        <li>AWS (EC2, S3, RDS, Lambda, VPC, IAM)</li>
+                        <li>Microsoft Azure (foundational)</li>
+                        <li>CloudFormation</li>
+                        <li>CloudWatch</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>System Administration</h4>
+                    <ul>
+                        <li>Linux (RHEL, Ubuntu)</li>
+                        <li>Windows Server</li>
+                        <li>Active Directory</li>
+                        <li>VPN</li>
+                        <li>Basic network security and hardening</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Automation & IaC</h4>
+                    <ul>
+                        <li>Terraform</li>
+                        <li>Ansible (learning / lab use)</li>
+                        <li>Python</li>
+                        <li>PowerShell</li>
+                        <li>Bash</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Networking</h4>
+                    <ul>
+                        <li>TCP/IP</li>
+                        <li>Routing fundamentals (EIGRP, OSPF)</li>
+                        <li>Switching & VLAN basics</li>
+                        <li>Cisco UCM (VoIP support)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>DevOps & CI/CD</h4>
+                    <ul>
+                        <li>Jenkins</li>
+                        <li>Docker</li>
+                        <li>Kubernetes (intro labs)</li>
+                        <li>Git / GitHub</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Database & Storage</h4>
+                    <ul>
+                        <li>MySQL (basic admin)</li>
+                        <li>Patch management practices</li>
+                        <li>Backup and recovery fundamentals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section-bg">
+        <div class="container">
+            <h2 class="section-title">
+                <i data-feather="award"></i>
+                Certifications
+            </h2>
+            <div class="cert-list">
+                <div class="cert-item">
+                    <div class="cert-content">
+                        <i data-feather="graduation-cap" class="cert-icon"></i>
+                        <div class="cert-details">
+                            <h4>AWS Certified Solutions Architect – Associate</h4>
+                            <p class="cert-issuer">Amazon Web Services (AWS)</p>
+                            <p class="cert-date">Issued Oct 2024 · Expires Oct 2027</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-content">
+                        <i data-feather="graduation-cap" class="cert-icon"></i>
+                        <div class="cert-details">
+                            <h4>AWS Certified Cloud Practitioner</h4>
+                            <p class="cert-issuer">Amazon Web Services (AWS)</p>
+                            <p class="cert-date">Issued May 2025 · Expires May 2028</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-content">
+                        <i data-feather="graduation-cap" class="cert-icon"></i>
+                        <div class="cert-details">
+                            <h4>CompTIA IT Operations Specialist – CIOS Stackable Certification</h4>
+                            <p class="cert-issuer">CompTIA</p>
+                            <p class="cert-date">Issued Nov 2025 · Expires Nov 2028</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-content">
+                        <i data-feather="graduation-cap" class="cert-icon"></i>
+                        <div class="cert-details">
+                            <h4>CompTIA Network+ ce Certification</h4>
+                            <p class="cert-issuer">CompTIA</p>
+                            <p class="cert-date">Issued Nov 2025 · Expires Nov 2028</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-content">
+                        <i data-feather="graduation-cap" class="cert-icon"></i>
+                        <div class="cert-details">
+                            <h4>CompTIA A+ ce Certification</h4>
+                            <p class="cert-issuer">CompTIA</p>
+                            <p class="cert-date">Issued Jul 2025 · Expires Jul 2028</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-content">
+                        <i data-feather="graduation-cap" class="cert-icon"></i>
+                        <div class="cert-details">
+                            <h4>Linux Essentials Certification</h4>
+                            <p class="cert-issuer">Linux Professional Institute (LPI)</p>
+                            <p class="cert-date">Issued Jul 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">
+                <i data-feather="graduation-cap"></i>
+                Education
+            </h2>
+            <div class="education-item">
+                <div class="education-content">
+                    <div>
+                        <h3>B.S. Cloud Computing (In Progress)</h3>
+                        <h4>Western Governors University</h4>
+                        <p class="education-location">Salt Lake City, UT · Online</p>
+                    </div>
+                    <div>
+                        <p class="cert-date">Expected Graduation: To be determined</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-bg">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-box">
+                <p>Interested in collaborating or have a project in mind? Feel free to reach out!</p>
+                <div class="social-links">
+                    <a href="mailto:jubril.adams@jjadams.pro" class="social-link email" title="Email">
+                        <i data-feather="mail" width="28" height="28"></i>
+                    </a>
+                    <a href="tel:+12244740556" class="social-link phone" title="Phone">
+                        <i data-feather="phone" width="28" height="28"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jubriladams" target="_blank" class="social-link linkedin" title="LinkedIn">
+                        <i data-feather="linkedin" width="28" height="28"></i>
+                    </a>
+                    <a href="https://github.com/Jubriladams78" target="_blank" class="social-link github" title="GitHub">
+                        <i data-feather="github" width="28" height="28"></i>
+                    </a>
+                </div>
+                <div class="contact-info">
+                    <p><span>Email:</span> jubril.adams@jjadams.pro</p>
+                    <p><span>Phone:</span> 224-474-0556</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Jubril Adams - Cloud Support Engineer & System Administrator. Built with HTML, CSS & JavaScript.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather Icons
+        feather.replace();
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
