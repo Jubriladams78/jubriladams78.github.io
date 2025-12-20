@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jubril Adams - Cloud Systems Administrator</title>
+    <title>Jubril Adams - Cloud Support Engineer</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
     <style>
         * {
@@ -25,7 +26,6 @@
             padding: 0 24px;
         }
 
-        /* Header */
         header {
             background: rgba(15, 23, 42, 0.5);
             backdrop-filter: blur(10px);
@@ -68,7 +68,6 @@
             color: #22d3ee;
         }
 
-        /* Hero Section */
         .hero {
             text-align: center;
             padding: 80px 0;
@@ -145,7 +144,6 @@
             background: rgba(34, 211, 238, 0.1);
         }
 
-        /* Section Styles */
         section {
             padding: 64px 0;
         }
@@ -168,7 +166,6 @@
             color: #22d3ee;
         }
 
-        /* Experience Section */
         .experience-item {
             background: rgba(30, 41, 59, 0.5);
             border: 1px solid rgba(59, 130, 246, 0.2);
@@ -223,7 +220,6 @@
             color: #22d3ee;
         }
 
-        /* Projects Grid */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -285,7 +281,6 @@
             font-size: 14px;
         }
 
-        /* Skills Grid */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -322,7 +317,6 @@
             margin-top: 2px;
         }
 
-        /* Certifications */
         .cert-list {
             max-width: 800px;
             margin: 0 auto;
@@ -368,7 +362,6 @@
             font-size: 14px;
         }
 
-        /* Education */
         .education-item {
             background: rgba(30, 41, 59, 0.5);
             border: 1px solid rgba(59, 130, 246, 0.2);
@@ -401,7 +394,6 @@
             margin-top: 8px;
         }
 
-        /* Contact Section */
         .contact-box {
             background: rgba(30, 41, 59, 0.5);
             border: 1px solid rgba(59, 130, 246, 0.2);
@@ -421,7 +413,6 @@
             display: flex;
             justify-content: center;
             gap: 24px;
-            margin-bottom: 24px;
         }
 
         .social-link {
@@ -480,7 +471,6 @@
             font-weight: 600;
         }
 
-        /* Footer */
         footer {
             background: #0f172a;
             border-top: 1px solid rgba(59, 130, 246, 0.2);
@@ -489,7 +479,6 @@
             color: #9ca3af;
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -544,11 +533,9 @@
                 <i data-feather="server" width="64" height="64"></i>
             </div>
             <h1>Jubril Adams</h1>
-            <h2>Cloud Systems Administrator</h2>
+            <h2>Cloud Support Engineer · System Administrator</h2>
             <p>
-                Results-driven Cloud System Administrator with 5 years of success designing, deploying, and securing 
-                enterprise cloud infrastructure across AWS, Azure, and hybrid environments. Currently pursuing B.S. in 
-                Cloud Computing at Western Governors University.
+                Cloud Support Engineer and System Administrator with hands-on experience supporting users, managing Windows and Linux servers, and building cloud lab environments on AWS. Currently pursuing a B.S. in Cloud Computing at Western Governors University and applying IT support and healthcare experience to reliable, secure, and well-documented infrastructure.
             </p>
             <p class="location">📍 Palatine, IL, USA</p>
             <div class="btn-group">
@@ -569,23 +556,20 @@
             <div class="experience-item">
                 <div class="experience-header">
                     <div class="experience-title">
-                        <h3>Cloud Systems Administrator</h3>
-                        <h4>Secure & IT</h4>
+                        <h3>IT Support Specialist</h3>
+                        <h4>Aurora Home Care</h4>
                     </div>
                     <div class="experience-date">
-                        <p>2020 - Present</p>
-                        <p>Madrid, Spain</p>
+                        <p>September 2025 - Present</p>
+                        <p>Illinois, USA</p>
                     </div>
                 </div>
                 <ul>
-                    <li>Migrated to AWS/Azure, reducing costs by 40%, uptime to 99.99%</li>
-                    <li>Automated with Terraform/Ansible, cutting provisioning time 70%</li>
-                    <li>Set up CI/CD with Jenkins, cutting errors 60%</li>
-                    <li>Led SOC 2 compliance, reducing incidents by 60%</li>
-                    <li>Responsible for servers, server room, and end users (100+ users)</li>
-                    <li>Implemented new inventory management system, saving $100,000/year</li>
-                    <li>Managed connectivity of 130 retail locations</li>
-                    <li>Implemented WAN protocols: EIGRP, OSPF, BGP, and RIP</li>
+                    <li>Provide front-line IT support for clinicians and staff, resolving issues with laptops, desktops, printers, and mobile devices.</li>
+                    <li>Support users in healthcare environments, including EMR access, account issues, and secure remote connectivity.</li>
+                    <li>Troubleshoot Windows and basic network problems (Wi‑Fi, VPN, printers) and document resolutions in tickets.</li>
+                    <li>Assist with onboarding and offboarding, account setup, and permissions following company policies.</li>
+                    <li>Escalate complex issues to senior admins while maintaining clear, empathetic communication with end users.</li>
                 </ul>
             </div>
 
@@ -596,19 +580,18 @@
                         <h4>Clearbrook</h4>
                     </div>
                     <div class="experience-date">
-                        <p>2014 - 2019</p>
+                        <p>2014 - Present</p>
                         <p>Arlington Heights, IL</p>
                     </div>
                 </div>
                 <p class="experience-description">
-                    Non-profit empowering children and adults with disabilities. Illinois's largest provider, 
-                    serving 8,000+ annually across 80 Chicagoland locations.
+                    Non-profit empowering children and adults with disabilities, serving thousands of individuals annually across multiple Chicagoland locations.
                 </p>
                 <ul>
-                    <li>24/7/365 availability for critical restarts of infrastructure, software, and hardware</li>
-                    <li>Managed network connectivity and security between 40 branch offices and head office</li>
-                    <li>Designed & developed VoIP network using Cisco Unified Communications Manager for 50 users</li>
-                    <li>Designed and implemented network infrastructure with 150+ network printers and registers</li>
+                    <li>Provide on-site and remote support for servers, network devices, and user endpoints across branch offices and the main campus.</li>
+                    <li>Manage network connectivity and basic security between branch offices and head office, coordinating with vendors as needed.</li>
+                    <li>Support VoIP infrastructure using Cisco Unified Communications Manager and network printers, helping ensure minimal downtime.</li>
+                    <li>Assist with routine maintenance, patching, and backups for Windows and Linux servers in collaboration with senior staff.</li>
                 </ul>
             </div>
         </div>
@@ -619,342 +602,7 @@
         <div class="container">
             <h2 class="section-title">
                 <i data-feather="briefcase"></i>
-                Featured Projects
+                Featured Labs & Projects
             </h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i data-feather="cloud"></i>
-                        </div>
-                        <div>
-                            <h4>AWS/Azure Cloud Migration</h4>
-                        </div>
-                    </div>
-                    <p>Migrated enterprise infrastructure to AWS/Azure, reducing operational costs by 40% and achieving 99.99% uptime</p>
-                    <div class="tech-tags">
-                        <span class="tech-tag">AWS</span>
-                        <span class="tech-tag">Azure</span>
-                        <span class="tech-tag">Terraform</span>
-                        <span class="tech-tag">Ansible</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i data-feather="code"></i>
-                        </div>
-                        <div>
-                            <h4>Infrastructure Automation</h4>
-                        </div>
-                    </div>
-                    <p>Automated systems provisioning with Terraform and Ansible, cutting deployment time by 70%</p>
-                    <div class="tech-tags">
-                        <span class="tech-tag">Terraform</span>
-                        <span class="tech-tag">Ansible</span>
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">CloudFormation</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i data-feather="server"></i>
-                        </div>
-                        <div>
-                            <h4>CI/CD Pipeline Implementation</h4>
-                        </div>
-                    </div>
-                    <p>Set up Jenkins CI/CD pipeline, decreasing deployment errors by 60%</p>
-                    <div class="tech-tags">
-                        <span class="tech-tag">Jenkins</span>
-                        <span class="tech-tag">Docker</span>
-                        <span class="tech-tag">Kubernetes</span>
-                        <span class="tech-tag">Git</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i data-feather="shield"></i>
-                        </div>
-                        <div>
-                            <h4>SOC 2 Compliance & Security</h4>
-                        </div>
-                    </div>
-                    <p>Led SOC 2 compliance initiative, reducing security incidents by 60%</p>
-                    <div class="tech-tags">
-                        <span class="tech-tag">CloudWatch</span>
-                        <span class="tech-tag">VPN</span>
-                        <span class="tech-tag">Network Security</span>
-                        <span class="tech-tag">Active Directory</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i data-feather="server"></i>
-                        </div>
-                        <div>
-                            <h4>Multi-Location Network Management</h4>
-                        </div>
-                    </div>
-                    <p>Managed network connectivity and security between 40 branch offices and head office, supporting 130+ retail locations</p>
-                    <div class="tech-tags">
-                        <span class="tech-tag">EIGRP</span>
-                        <span class="tech-tag">OSPF</span>
-                        <span class="tech-tag">BGP</span>
-                        <span class="tech-tag">RIP</span>
-                        <span class="tech-tag">TCP/IP</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i data-feather="database"></i>
-                        </div>
-                        <div>
-                            <h4>VoIP Infrastructure Deployment</h4>
-                        </div>
-                    </div>
-                    <p>Designed and developed VoIP network using Cisco Unified Communications Manager for 50+ users</p>
-                    <div class="tech-tags">
-                        <span class="tech-tag">Cisco UCM</span>
-                        <span class="tech-tag">VoIP</span>
-                        <span class="tech-tag">Network Infrastructure</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section-bg">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h4>Cloud Platforms</h4>
-                    <ul>
-                        <li>AWS (EC2, S3, RDS, Lambda)</li>
-                        <li>Microsoft Azure</li>
-                        <li>CloudFormation</li>
-                        <li>CloudWatch</li>
-                    </ul>
-                </div>
-
-                <div class="skill-category">
-                    <h4>System Administration</h4>
-                    <ul>
-                        <li>Linux</li>
-                        <li>Windows Server</li>
-                        <li>Active Directory</li>
-                        <li>VPN</li>
-                        <li>Network Security</li>
-                    </ul>
-                </div>
-
-                <div class="skill-category">
-                    <h4>Automation & IaC</h4>
-                    <ul>
-                        <li>Terraform</li>
-                        <li>Ansible</li>
-                        <li>Python</li>
-                        <li>PowerShell</li>
-                        <li>Bash</li>
-                    </ul>
-                </div>
-
-                <div class="skill-category">
-                    <h4>Networking</h4>
-                    <ul>
-                        <li>TCP/IP</li>
-                        <li>EIGRP</li>
-                        <li>OSPF</li>
-                        <li>BGP</li>
-                        <li>RIP</li>
-                        <li>Cisco UCM</li>
-                    </ul>
-                </div>
-
-                <div class="skill-category">
-                    <h4>DevOps & CI/CD</h4>
-                    <ul>
-                        <li>Jenkins</li>
-                        <li>Docker</li>
-                        <li>Kubernetes</li>
-                        <li>Git</li>
-                    </ul>
-                </div>
-
-                <div class="skill-category">
-                    <h4>Database & Storage</h4>
-                    <ul>
-                        <li>MySQL</li>
-                        <li>Patch Management</li>
-                        <li>Infrastructure</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section id="certifications" class="section-bg">
-        <div class="container">
-            <h2 class="section-title">
-                <i data-feather="award"></i>
-                Certifications
-            </h2>
-            <div class="cert-list">
-                <div class="cert-item">
-                    <div class="cert-content">
-                        <i data-feather="graduation-cap" class="cert-icon"></i>
-                        <div class="cert-details">
-                            <h4>AWS Certified Solutions Architect – Associate</h4>
-                            <p class="cert-issuer">Amazon Web Services (AWS)</p>
-                            <p class="cert-date">Issued Oct 2024 · Expires Oct 2027</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-item">
-                    <div class="cert-content">
-                        <i data-feather="graduation-cap" class="cert-icon"></i>
-                        <div class="cert-details">
-                            <h4>AWS Certified Cloud Practitioner</h4>
-                            <p class="cert-issuer">Amazon Web Services (AWS)</p>
-                            <p class="cert-date">Issued May 2025 · Expires May 2028</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-item">
-                    <div class="cert-content">
-                        <i data-feather="graduation-cap" class="cert-icon"></i>
-                        <div class="cert-details">
-                            <h4>CompTIA IT Operations Specialist – CIOS Stackable Certification</h4>
-                            <p class="cert-issuer">CompTIA</p>
-                            <p class="cert-date">Issued Nov 2025 · Expires Nov 2028</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-item">
-                    <div class="cert-content">
-                        <i data-feather="graduation-cap" class="cert-icon"></i>
-                        <div class="cert-details">
-                            <h4>CompTIA Network+ ce Certification</h4>
-                            <p class="cert-issuer">CompTIA</p>
-                            <p class="cert-date">Issued Nov 2025 · Expires Nov 2028</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-item">
-                    <div class="cert-content">
-                        <i data-feather="graduation-cap" class="cert-icon"></i>
-                        <div class="cert-details">
-                            <h4>CompTIA A+ ce Certification</h4>
-                            <p class="cert-issuer">CompTIA</p>
-                            <p class="cert-date">Issued Jul 2025 · Expires Jul 2028</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cert-item">
-                    <div class="cert-content">
-                        <i data-feather="graduation-cap" class="cert-icon"></i>
-                        <div class="cert-details">
-                            <h4>Linux Essentials Certification</h4>
-                            <p class="cert-issuer">Linux Professional Institute (LPI)</p>
-                            <p class="cert-date">Issued Jul 2025</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education">
-        <div class="container">
-            <h2 class="section-title">
-                <i data-feather="graduation-cap"></i>
-                Education
-            </h2>
-            <div class="education-item">
-                <div class="education-content">
-                    <div>
-                        <h3>B.S. Cloud Computing</h3>
-                        <h4>Western Governors University</h4>
-                        <p class="education-location">Salt Lake City, UT</p>
-                    </div>
-                    <div>
-                        <p class="cert-date">2006 - 2010</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section-bg">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-box">
-                <p>Interested in collaborating or have a project in mind? Feel free to reach out!</p>
-                <div class="social-links">
-                    <a href="mailto:jubril.adams@jjadams.pro" class="social-link email" title="Email">
-                        <i data-feather="mail" width="28" height="28"></i>
-                    </a>
-                    <a href="tel:+12244740556" class="social-link phone" title="Phone">
-                        <i data-feather="phone" width="28" height="28"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/jubriladams" target="_blank" class="social-link linkedin" title="LinkedIn">
-                        <i data-feather="linkedin" width="28" height="28"></i>
-                    </a>
-                    <a href="https://github.com/Jubriladams78" target="_blank" class="social-link github" title="GitHub">
-                        <i data-feather="github" width="28" height="28"></i>
-                    </a>
-                </div>
-                <div class="contact-info">
-                    <p><span>Email:</span> jubril.adams@jjadams.pro</p>
-                    <p><span>Phone:</span> 224-474-0556</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>© 2024 Jubril Adams - Cloud Systems Administrator. Built with HTML, CSS & JavaScript.</p>
-        </div>
-    </footer>
-
-    <script>
-        // Initialize Feather Icons
-        feather.replace();
-
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-    </script>
-</body>
-</html>
