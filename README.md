@@ -534,11 +534,13 @@
             <h1>Jubril Adams</h1>
             <h2>Cloud Support Engineer · Systems Administrator</h2>
             <p>
-                Cloud Support Engineer and Systems Administrator with hands-on experience supporting clinical and business users, administering Linux and Windows servers, and operating secure, highly available infrastructure in regulated environments. Building and supporting cloud environments on AWS and Azure while pursuing a B.S. in Cloud Computing at Western Governors University, with a focus on reliable, secure, and well-documented systems.
+                Cloud Support Engineer and Systems Administrator with 4+ years of hands-on experience supporting clinical and business users, administering Linux and Windows servers, and operating secure, highly available infrastructure in regulated environments. Proven track record of migrating mission-critical applications to AWS and Azure, reducing costs by 40% while maintaining 99.99% uptime. Skilled in Infrastructure as Code (Terraform, Ansible), CI/CD pipelines (Jenkins, GitHub Actions), and cloud operations (EC2, S3, RDS, Lambda, CloudWatch). Pursuing a B.S. in Cloud Computing at Western Governors University and targeting fully remote Cloud Support Engineer, Cloud Systems Administrator, and early-career DevOps Engineer roles.
             </p>
             <p class="location">📍 Palatine, IL, USA</p>
             <div class="btn-group">
-                <a href="#contact" class="btn btn-primary">Download Resume</a>
+                <a href="PATH_TO_RESUME" class="btn btn-primary" target="_blank" rel="noopener">
+                    Download Resume (PDF)
+                </a>
                 <a href="#projects" class="btn btn-secondary">View Projects</a>
             </div>
         </div>
@@ -555,20 +557,41 @@
             <div class="experience-item">
                 <div class="experience-header">
                     <div class="experience-title">
-                        <h3>Health Information Technician / IT Support</h3>
-                        <h4>Aurora Home Care</h4>
+                        <h3>Cloud Systems Administrator</h3>
+                        <h4>Secure &amp; Innovate</h4>
                     </div>
                     <div class="experience-date">
-                        <p>Aug 2025 - Present</p>
-                        <p>Illinois, USA</p>
+                        <p>Jan 2022 - Present</p>
+                        <p>Remote · Contract</p>
                     </div>
                 </div>
                 <ul>
-                    <li>Perform daily data entry and quality checks on referrals, admissions, visit documentation, and discharge records, improving documentation accuracy for field clinicians.</li>
-                    <li>Partner with nurses, therapists, and coordinators to resolve missing or inconsistent information in the EHR, reducing follow-up delays.</li>
-                    <li>Support clinicians and staff with EHR access, account issues, and secure remote connectivity in coordination with IT.</li>
-                    <li>Handle front-line IT support for laptops, desktops, printers, and basic networking issues (Wi‑Fi, VPN, printers), documenting resolutions in tickets.</li>
-                    <li>Maintain confidentiality and security of patient records by following HIPAA-aligned access controls and release-of-information procedures.</li>
+                    <li>Migrated mission-critical applications to AWS and Azure, using services such as EC2, S3, RDS, VPC, and IAM to reduce cloud infrastructure costs by 40% while maintaining 99.99% uptime.</li>
+                    <li>Automated infrastructure provisioning and configuration with Terraform and Ansible, implementing Infrastructure as Code standards and cutting deployment times by 70%.</li>
+                    <li>Designed and maintained CI/CD pipelines in Jenkins and GitHub Actions, integrating automated testing and approvals and reducing deployment errors by 60%.</li>
+                    <li>Improved monitoring and incident management by leveraging CloudWatch, centralized logging, and alerting, strengthening security and supporting SOC 2 compliance efforts.</li>
+                    <li>Administered Linux and Windows servers across hybrid environments, handling patching, hardening, backup, and disaster recovery for approximately 100 end users.</li>
+                    <li>Created Python and Bash automation scripts and configuration management routines that reduced manual server maintenance tasks by 50%.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="experience-title">
+                        <h3>Health Information Technician / IT Support</h3>
+                        <h4>Aurora Home Care Inc</h4>
+                    </div>
+                    <div class="experience-date">
+                        <p>Aug 2025 - Present</p>
+                        <p>Northbrook, IL</p>
+                    </div>
+                </div>
+                <ul>
+                    <li>Support and troubleshoot EHR and related healthcare applications for clinicians and administrative staff, resolving login issues, access problems, and workflow errors.</li>
+                    <li>Work with IT teams on user access, permissions, and basic system maintenance to keep health information systems available and secure.</li>
+                    <li>Ensure all handling of patient data complies with HIPAA and other privacy regulations, including proper authorization and release-of-information processes.</li>
+                    <li>Maintain confidentiality, integrity, and security of electronic records through correct use of access controls, audit trails, and secure work practices.</li>
+                    <li>Participate in quality control checks to make sure records are accurate, complete, and stored correctly in the organization's systems.</li>
                 </ul>
             </div>
 
@@ -579,7 +602,7 @@
                         <h4>Clearbrook</h4>
                     </div>
                     <div class="experience-date">
-                        <p>Jan 2020 - Present</p>
+                        <p>Jan 2020 - Feb 2023</p>
                         <p>Arlington Heights, IL</p>
                     </div>
                 </div>
@@ -587,10 +610,11 @@
                     Non-profit empowering children and adults with disabilities, serving thousands of individuals annually across multiple Chicagoland locations.
                 </p>
                 <ul>
-                    <li>Provide 24/7 on-call and on-site support for Linux and Windows servers, network devices, and user endpoints across multiple branch offices and the main campus.</li>
-                    <li>Administer servers and user accounts, including patching, basic hardening, and backup tasks to improve reliability and security.</li>
-                    <li>Manage network connectivity and basic security between branch offices and head office, coordinating with ISPs and vendors as needed.</li>
-                    <li>Support VoIP infrastructure using Cisco Unified Communications Manager and network printers, helping ensure minimal downtime for staff and clients.</li>
+                    <li>Delivered 24/7/365 support for core infrastructure, applications, and network connectivity, improving system reliability for a multi-site nonprofit with dozens of locations.</li>
+                    <li>Administered Linux and Windows Server environments, including user management, patching, antivirus, and basic hardening, to support secure access for staff and clients.</li>
+                    <li>Managed WAN connectivity and basic network security between 40+ branch offices and the head office, working with routers, switches, firewalls, VPNs, and DNS.</li>
+                    <li>Designed and supported a Cisco Unified Communications Manager VoIP network for ~50 users, improving communication quality and uptime.</li>
+                    <li>Implemented and documented network infrastructure for more than 150 networked printers, registers, and endpoints, reducing recurring incidents and improving change management.</li>
                 </ul>
             </div>
         </div>
@@ -619,6 +643,7 @@
                         <span class="tech-tag">EC2</span>
                         <span class="tech-tag">RDS</span>
                         <span class="tech-tag">VPC</span>
+                        <span class="tech-tag">CloudWatch</span>
                     </div>
                 </div>
 
@@ -631,11 +656,12 @@
                             <h4>Infrastructure as Code for AWS VPC</h4>
                         </div>
                     </div>
-                    <p>Built reusable Terraform configurations to provision VPCs, subnets, EC2 instances, and security groups, enabling consistent, version-controlled environments for testing and learning.</p>
+                    <p>Built reusable Terraform configurations to provision VPCs, subnets, EC2 instances, and security groups, enabling consistent, version-controlled environments for testing and learning across multiple AWS regions.</p>
                     <div class="tech-tags">
                         <span class="tech-tag">Terraform</span>
                         <span class="tech-tag">AWS</span>
                         <span class="tech-tag">CloudFormation</span>
+                        <span class="tech-tag">IaC</span>
                     </div>
                 </div>
 
@@ -648,11 +674,12 @@
                             <h4>CI/CD Pipeline for a Demo App</h4>
                         </div>
                     </div>
-                    <p>Implemented a CI/CD pipeline for a sample application using GitHub Actions and Jenkins in a lab environment, including automated builds, basic tests, and deployment to a test server.</p>
+                    <p>Implemented a CI/CD pipeline for a sample application using GitHub Actions and Jenkins in a lab environment, including automated builds, basic tests, and deployment to a test server with rollback capabilities.</p>
                     <div class="tech-tags">
                         <span class="tech-tag">Jenkins</span>
                         <span class="tech-tag">GitHub Actions</span>
                         <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">CI/CD</span>
                     </div>
                 </div>
 
@@ -662,15 +689,16 @@
                             <i data-feather="shield"></i>
                         </div>
                         <div>
-                            <h4>Linux and Windows Home Lab with AD</h4>
+                            <h4>Linux and Windows Home Lab with Active Directory</h4>
                         </div>
                     </div>
-                    <p>Set up a mixed Linux and Windows lab with Active Directory, group policies, and secure remote access to practice identity, access control, and basic hardening.</p>
+                    <p>Set up a mixed Linux and Windows lab with Active Directory, group policies, LDAP integration, and secure remote access to practice identity and access management and basic system hardening.</p>
                     <div class="tech-tags">
                         <span class="tech-tag">Active Directory</span>
                         <span class="tech-tag">Windows Server</span>
                         <span class="tech-tag">Linux</span>
                         <span class="tech-tag">VPN</span>
+                        <span class="tech-tag">Group Policy</span>
                     </div>
                 </div>
 
@@ -683,11 +711,12 @@
                             <h4>Network Fundamentals Lab</h4>
                         </div>
                     </div>
-                    <p>Practiced routing protocols and network troubleshooting in a virtual lab using EIGRP, OSPF, and static routing to strengthen core networking fundamentals.</p>
+                    <p>Practiced routing protocols and network troubleshooting in a virtual lab using EIGRP, OSPF, and static routing to strengthen core networking fundamentals and improve diagnostic skills.</p>
                     <div class="tech-tags">
                         <span class="tech-tag">TCP/IP</span>
                         <span class="tech-tag">EIGRP</span>
                         <span class="tech-tag">OSPF</span>
+                        <span class="tech-tag">Routing</span>
                     </div>
                 </div>
 
@@ -700,11 +729,12 @@
                             <h4>Automation & Scripting Toolkit</h4>
                         </div>
                     </div>
-                    <p>Developed a small collection of Python, Bash, and PowerShell scripts to automate routine admin tasks, including log cleanup, basic checks, and user account management, with documentation on GitHub.</p>
+                    <p>Developed a collection of Python, Bash, and PowerShell scripts to automate routine admin tasks, including log cleanup, health checks, and user account management, with comprehensive documentation on GitHub.</p>
                     <div class="tech-tags">
                         <span class="tech-tag">Python</span>
                         <span class="tech-tag">Bash</span>
                         <span class="tech-tag">PowerShell</span>
+                        <span class="tech-tag">Automation</span>
                     </div>
                 </div>
             </div>
@@ -717,28 +747,19 @@
             <h2 class="section-title">Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h4>Cloud Platforms</h4>
+                    <h4>Cloud & Platforms</h4>
                     <ul>
                         <li>AWS (EC2, S3, RDS, Lambda, VPC, IAM, CloudWatch, CloudFormation)</li>
-                        <li>Microsoft Azure (VMs, Storage, Azure AD – foundational)</li>
+                        <li>Microsoft Azure (VMs, Storage, Azure AD)</li>
+                        <li>GCP (exposure)</li>
                     </ul>
                 </div>
 
                 <div class="skill-category">
-                    <h4>System Administration</h4>
-                    <ul>
-                        <li>Linux (RHEL, Ubuntu)</li>
-                        <li>Windows Server</li>
-                        <li>Active Directory</li>
-                        <li>VPN</li>
-                        <li>Basic network security and hardening</li>
-                    </ul>
-                </div>
-
-                <div class="skill-category">
-                    <h4>Automation & IaC</h4>
+                    <h4>Infrastructure as Code & Automation</h4>
                     <ul>
                         <li>Terraform</li>
+                        <li>CloudFormation</li>
                         <li>Ansible (learning / lab use)</li>
                         <li>Python</li>
                         <li>PowerShell</li>
@@ -747,12 +768,13 @@
                 </div>
 
                 <div class="skill-category">
-                    <h4>Networking</h4>
+                    <h4>Systems & Networking</h4>
                     <ul>
-                        <li>TCP/IP</li>
-                        <li>Routing fundamentals (EIGRP, OSPF)</li>
-                        <li>Switching & VLAN basics</li>
-                        <li>Cisco UCM (VoIP support)</li>
+                        <li>Linux (RHEL, Ubuntu)</li>
+                        <li>Windows Server</li>
+                        <li>Active Directory</li>
+                        <li>VPN</li>
+                        <li>Load balancing, DNS, network security and hardening</li>
                     </ul>
                 </div>
 
@@ -760,18 +782,29 @@
                     <h4>DevOps & CI/CD</h4>
                     <ul>
                         <li>Jenkins</li>
+                        <li>GitHub Actions</li>
+                        <li>GitLab CI</li>
                         <li>Docker</li>
                         <li>Kubernetes (intro labs)</li>
-                        <li>Git / GitHub / GitHub Actions</li>
+                        <li>Git</li>
                     </ul>
                 </div>
 
                 <div class="skill-category">
-                    <h4>Database & Storage</h4>
+                    <h4>Database, Storage & Reliability</h4>
                     <ul>
                         <li>MySQL (basic admin)</li>
-                        <li>Patch management practices</li>
-                        <li>Backup and recovery fundamentals</li>
+                        <li>Patch management, backup and recovery, disaster recovery planning</li>
+                        <li>CloudWatch, logging and alerting, performance tuning, incident response, on-call support, SOC 2 awareness</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Healthcare IT</h4>
+                    <ul>
+                        <li>EHR/EMR support</li>
+                        <li>HIPAA compliance and PHI security</li>
+                        <li>Clinical workflow optimization</li>
                     </ul>
                 </div>
             </div>
@@ -812,7 +845,7 @@
                     <div class="cert-content">
                         <i data-feather="graduation-cap" class="cert-icon"></i>
                         <div class="cert-details">
-                            <h4>CompTIA IT Operations Specialist – CIOS Stackable Certification</h4>
+                            <h4>CompTIA IT Operations Specialist (CIOS) Stackable Certification</h4>
                             <p class="cert-issuer">CompTIA</p>
                             <p class="cert-date">Issued Nov 2025 · Expires Nov 2028</p>
                         </div>
@@ -823,7 +856,7 @@
                     <div class="cert-content">
                         <i data-feather="graduation-cap" class="cert-icon"></i>
                         <div class="cert-details">
-                            <h4>CompTIA Network+ ce Certification</h4>
+                            <h4>CompTIA Network+ ce</h4>
                             <p class="cert-issuer">CompTIA</p>
                             <p class="cert-date">Issued Nov 2025 · Expires Nov 2028</p>
                         </div>
@@ -834,7 +867,7 @@
                     <div class="cert-content">
                         <i data-feather="graduation-cap" class="cert-icon"></i>
                         <div class="cert-details">
-                            <h4>CompTIA A+ ce Certification</h4>
+                            <h4>CompTIA A+ ce</h4>
                             <p class="cert-issuer">CompTIA</p>
                             <p class="cert-date">Issued Jul 2025 · Expires Jul 2028</p>
                         </div>
@@ -845,7 +878,7 @@
                     <div class="cert-content">
                         <i data-feather="graduation-cap" class="cert-icon"></i>
                         <div class="cert-details">
-                            <h4>Linux Essentials Certification</h4>
+                            <h4>Linux Essentials</h4>
                             <p class="cert-issuer">Linux Professional Institute (LPI)</p>
                             <p class="cert-date">Issued Jul 2025</p>
                         </div>
@@ -884,7 +917,7 @@
             <div class="contact-box">
                 <p>Open to fully remote Cloud Support Engineer, Cloud Systems Administrator, and early-career DevOps Engineer roles. Interested in collaborating or have a project in mind? Feel free to reach out.</p>
                 <div class="social-links">
-                    <a href="mailto:jubril.adams@jjadams.pro" class="social-link email" title="Email">
+                    <a href="mailto:adam.jubril78@mail.com" class="social-link email" title="Email">
                         <i data-feather="mail" width="28" height="28"></i>
                     </a>
                     <a href="tel:+12244740556" class="social-link phone" title="Phone">
@@ -898,8 +931,9 @@
                     </a>
                 </div>
                 <div class="contact-info">
-                    <p><span>Email:</span> jubril.adams@jjadams.pro</p>
+                    <p><span>Email:</span> adam.jubril78@mail.com</p>
                     <p><span>Phone:</span> 224-474-0556</p>
+                    <p><span>Resume:</span> <a href="PATH_TO_RESUME" target="_blank" rel="noopener">View PDF</a></p>
                 </div>
             </div>
         </div>
