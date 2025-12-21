@@ -532,9 +532,9 @@
                 <i data-feather="server" width="64" height="64"></i>
             </div>
             <h1>Jubril Adams</h1>
-            <h2>Cloud Support Engineer · System Administrator</h2>
+            <h2>Cloud Support Engineer · Systems Administrator</h2>
             <p>
-                Cloud Support Engineer and System Administrator with hands-on experience supporting users, managing Windows and Linux servers, and building cloud lab environments on AWS. Currently pursuing a B.S. in Cloud Computing at Western Governors University and applying IT support and healthcare experience to reliable, secure, and well-documented infrastructure.
+                Cloud Support Engineer and Systems Administrator with hands-on experience supporting clinical and business users, administering Linux and Windows servers, and operating secure, highly available infrastructure in regulated environments. Building and supporting cloud environments on AWS and Azure while pursuing a B.S. in Cloud Computing at Western Governors University, with a focus on reliable, secure, and well-documented systems.
             </p>
             <p class="location">📍 Palatine, IL, USA</p>
             <div class="btn-group">
@@ -555,20 +555,20 @@
             <div class="experience-item">
                 <div class="experience-header">
                     <div class="experience-title">
-                        <h3>IT Support Specialist</h3>
+                        <h3>Health Information Technician / IT Support</h3>
                         <h4>Aurora Home Care</h4>
                     </div>
                     <div class="experience-date">
-                        <p>September 2025 - Present</p>
+                        <p>Aug 2025 - Present</p>
                         <p>Illinois, USA</p>
                     </div>
                 </div>
                 <ul>
-                    <li>Provide front-line IT support for clinicians and staff, resolving issues with laptops, desktops, printers, and mobile devices.</li>
-                    <li>Support users in healthcare environments, including EMR access, account issues, and secure remote connectivity.</li>
-                    <li>Troubleshoot Windows and basic network problems (Wi‑Fi, VPN, printers) and document resolutions in tickets.</li>
-                    <li>Assist with onboarding and offboarding, account setup, and permissions following company policies.</li>
-                    <li>Escalate complex issues to senior admins while maintaining clear, empathetic communication with end users.</li>
+                    <li>Perform daily data entry and quality checks on referrals, admissions, visit documentation, and discharge records, improving documentation accuracy for field clinicians.</li>
+                    <li>Partner with nurses, therapists, and coordinators to resolve missing or inconsistent information in the EHR, reducing follow-up delays.</li>
+                    <li>Support clinicians and staff with EHR access, account issues, and secure remote connectivity in coordination with IT.</li>
+                    <li>Handle front-line IT support for laptops, desktops, printers, and basic networking issues (Wi‑Fi, VPN, printers), documenting resolutions in tickets.</li>
+                    <li>Maintain confidentiality and security of patient records by following HIPAA-aligned access controls and release-of-information procedures.</li>
                 </ul>
             </div>
 
@@ -579,7 +579,7 @@
                         <h4>Clearbrook</h4>
                     </div>
                     <div class="experience-date">
-                        <p>2014 - Present</p>
+                        <p>Jan 2020 - Present</p>
                         <p>Arlington Heights, IL</p>
                     </div>
                 </div>
@@ -587,10 +587,10 @@
                     Non-profit empowering children and adults with disabilities, serving thousands of individuals annually across multiple Chicagoland locations.
                 </p>
                 <ul>
-                    <li>Provide on-site and remote support for servers, network devices, and user endpoints across branch offices and the main campus.</li>
-                    <li>Manage network connectivity and basic security between branch offices and head office, coordinating with vendors as needed.</li>
-                    <li>Support VoIP infrastructure using Cisco Unified Communications Manager and network printers, helping ensure minimal downtime.</li>
-                    <li>Assist with routine maintenance, patching, and backups for Windows and Linux servers in collaboration with senior staff.</li>
+                    <li>Provide 24/7 on-call and on-site support for Linux and Windows servers, network devices, and user endpoints across multiple branch offices and the main campus.</li>
+                    <li>Administer servers and user accounts, including patching, basic hardening, and backup tasks to improve reliability and security.</li>
+                    <li>Manage network connectivity and basic security between branch offices and head office, coordinating with ISPs and vendors as needed.</li>
+                    <li>Support VoIP infrastructure using Cisco Unified Communications Manager and network printers, helping ensure minimal downtime for staff and clients.</li>
                 </ul>
             </div>
         </div>
@@ -613,7 +613,7 @@
                             <h4>AWS Three-Tier Web Application Lab</h4>
                         </div>
                     </div>
-                    <p>Designed and deployed a three-tier web application in a lab environment using an Application Load Balancer, Auto Scaling groups, EC2, and RDS to practice high availability, networking, and backup strategies.</p>
+                    <p>Designed and deployed a three-tier web application in an AWS lab environment using an Application Load Balancer, Auto Scaling groups, EC2, and RDS to practice high availability, VPC networking, monitoring with CloudWatch, and backup strategies.</p>
                     <div class="tech-tags">
                         <span class="tech-tag">AWS</span>
                         <span class="tech-tag">EC2</span>
@@ -719,10 +719,8 @@
                 <div class="skill-category">
                     <h4>Cloud Platforms</h4>
                     <ul>
-                        <li>AWS (EC2, S3, RDS, Lambda, VPC, IAM)</li>
-                        <li>Microsoft Azure (foundational)</li>
-                        <li>CloudFormation</li>
-                        <li>CloudWatch</li>
+                        <li>AWS (EC2, S3, RDS, Lambda, VPC, IAM, CloudWatch, CloudFormation)</li>
+                        <li>Microsoft Azure (VMs, Storage, Azure AD – foundational)</li>
                     </ul>
                 </div>
 
@@ -764,7 +762,7 @@
                         <li>Jenkins</li>
                         <li>Docker</li>
                         <li>Kubernetes (intro labs)</li>
-                        <li>Git / GitHub</li>
+                        <li>Git / GitHub / GitHub Actions</li>
                     </ul>
                 </div>
 
@@ -884,7 +882,7 @@
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-box">
-                <p>Interested in collaborating or have a project in mind? Feel free to reach out!</p>
+                <p>Open to fully remote Cloud Support Engineer, Cloud Systems Administrator, and early-career DevOps Engineer roles. Interested in collaborating or have a project in mind? Feel free to reach out.</p>
                 <div class="social-links">
                     <a href="mailto:jubril.adams@jjadams.pro" class="social-link email" title="Email">
                         <i data-feather="mail" width="28" height="28"></i>
@@ -910,7 +908,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>© 2024 Jubril Adams - Cloud Support Engineer & System Administrator. Built with HTML, CSS & JavaScript.</p>
+            <p>© 2024 Jubril Adams – Cloud Support Engineer & Systems Administrator (AWS | Azure | Linux | Terraform). Built with HTML, CSS & JavaScript.</p>
         </div>
     </footer>
 
