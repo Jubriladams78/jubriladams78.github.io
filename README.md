@@ -6,19 +6,21 @@
   <title>Jubril Adams | Cloud &amp; Systems Engineer</title>
 </head>
 <body>
-  <!-- Background (style with CSS later) -->
-  <div class="bg-animation"></div>
-
-  <!-- Navigation -->
-  <header class="site-header">
-    <nav id="navbar" class="nav-bar">
+  <!-- Header & Navigation -->
+  <header id="top">
+    <nav class="site-nav">
       <div class="nav-container">
-        <div class="logo">Jubril Adams</div>
+        <div class="nav-brand">
+          <span class="nav-name">Jubril Adams</span>
+          <span class="nav-title">Cloud &amp; Systems Engineer</span>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <!-- Icon handled via CSS/JS -->
+        </button>
         <ul class="nav-links">
-          <li><a href="#home" class="active">Home</a></li>
-          <li><a href="#highlights">Highlights</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#hero">Home</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -26,141 +28,232 @@
     </nav>
   </header>
 
-  <main class="container">
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-      <div class="hero-content">
-        <p class="hero-role">IT Support &amp; System Administrator → Cloud &amp; Systems Engineer</p>
-        <p class="hero-availability">Open to Cloud Support Engineer &amp; Junior System Administrator roles starting in 2026.</p>
-        <h1 class="hero-title">Jubril Adams</h1>
-        <h2 class="hero-subtitle">Building reliable, secure, and well‑documented cloud and on‑prem environments.</h2>
-        <p class="hero-summary">
-          Cloud computing student and hands‑on lab builder with experience supporting users, servers, and networks. Focused on AWS, Linux, networking, and automation that reduces incidents and speeds up troubleshooting.
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="section section-hero">
+      <div class="hero-inner">
+        <p class="hero-kicker">Cloud Support Engineer &amp; Systems Administrator</p>
+        <p class="hero-availability">Open to Cloud Support Engineer and Cloud / Systems roles starting in 2026.</p>
+        <h1 class="hero-heading">Designing and supporting reliable, secure cloud infrastructure.</h1>
+        <p class="hero-bio">
+          Cloud computing student and IT professional with 4+ years of experience across AWS, Azure, Linux, and Windows Server. 
+          Focused on automation, observability, and secure operations that reduce incidents and keep services available.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">View Cloud Projects</a>
-          <a href="#highlights" class="btn btn-secondary">See Experience Highlights</a>
-          <!-- Replace URL with your real LinkedIn profile -->
-          <a href="https://linkedin.com/in/jubriladams" class="btn btn-linkedin">View my LinkedIn</a>
+          <a href="#contact" class="btn btn-secondary">Contact &amp; LinkedIn</a>
         </div>
       </div>
     </section>
 
-    <!-- Highlights Section -->
-    <section id="highlights" class="highlights-section">
+    <!-- Skills -->
+    <section id="skills" class="section section-skills">
       <header class="section-header">
-        <h2 class="section-title">Professional Highlights</h2>
-        <p class="section-subtitle">
-          A track record of reliable support work plus cloud labs that mirror real‑world environments.
-        </p>
+        <h2>Technical Skills</h2>
+        <p>Skills applied in home labs, professional roles, and hands‑on cloud projects.</p>
       </header>
-      <ul class="highlights-list">
-        <li>3+ years supporting users, servers, and networks with a strong record of resolving tickets and preventing repeat issues.</li>
-        <li>Hands‑on labs in AWS, Linux, networking, security, and automation focused on troubleshooting and root‑cause analysis.</li>
-        <li>CompTIA A+, Network+, Security+, and Linux Essentials certified; actively building AWS and cloud‑native skills.</li>
-        <li>Home lab built with AD, Linux servers, monitoring, backups, and scripted tasks to simulate production environments.</li>
-      </ul>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Cloud Platforms</h3>
+          <p>AWS (EC2, S3, RDS, Lambda, VPC, IAM, CloudWatch, CloudFormation) and Azure (VMs, Storage, Azure AD).</p>
+        </article>
+        <article class="skill-card">
+          <h3>Linux &amp; Systems</h3>
+          <p>Linux (RHEL, Ubuntu), Windows Server, Active Directory, patching, hardening, backup, and recovery.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Networking</h3>
+          <p>VPC design, subnets, VPN, load balancing, DNS, routing, and secure connectivity patterns.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Security</h3>
+          <p>IAM, least privilege, encryption, logging and alerting, SOC 2 awareness, and HIPAA‑aligned practices.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Scripting &amp; Automation</h3>
+          <p>Terraform, CloudFormation, Ansible, Python, Bash, and PowerShell for IaC and operational automation.</p>
+        </article>
+        <article class="skill-card">
+          <h3>DevOps &amp; Monitoring</h3>
+          <p>Jenkins, GitHub Actions, Docker, Kubernetes labs, CloudWatch, centralized logging, and incident response.</p>
+        </article>
+      </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
+    <!-- Projects -->
+    <section id="projects" class="section section-projects">
       <header class="section-header">
-        <h2 class="section-title">Cloud &amp; Systems Projects</h2>
-        <p class="section-subtitle">
-          Each project focuses on the problem solved, what was done, and the tools used.
-        </p>
+        <h2>Projects &amp; Portfolio</h2>
+        <p>Selected projects that show how cloud, systems, and automation skills translate into real impact.</p>
       </header>
 
       <div class="projects-grid">
         <!-- Project 1 -->
-        <!-- Replace text and link with your real AWS multi-tier project -->
         <article class="project-card">
-          <div class="project-media">🏗️</div>
-          <div class="project-content">
-            <h3 class="project-title">AWS Multi‑Tier Web Application Lab</h3>
-            <p class="project-description">
-              Designed and deployed a multi‑tier web application in AWS to practice high availability, secure network design, and observability.
-            </p>
-            <p class="project-details">
-              <strong>What I did:</strong> Built a VPC with public and private subnets, Internet and NAT gateways, EC2 instances behind an Application Load Balancer, and RDS in private subnets. Configured security groups, IAM roles, CloudWatch alarms, and automated backups.
-            </p>
-            <p class="project-tech">
-              <strong>Technologies:</strong> AWS, VPC, EC2, RDS, ALB, IAM, CloudWatch
-            </p>
-            <a href="https://github.com/jubriladams78" class="project-link">View on GitHub</a>
-          </div>
+          <h3 class="project-title">AWS Three‑Tier Web Application Lab</h3>
+          <p class="project-description">
+            Designed and deployed a three‑tier web application in AWS to practice highly available, production‑style architectures.
+          </p>
+          <p class="project-description">
+            Built a VPC with public and private subnets, ALB, Auto Scaling, EC2, and RDS, then added CloudWatch monitoring and automated backups to validate reliability and recovery.
+          </p>
+          <p class="project-tech">
+            <strong>Tech stack:</strong> AWS VPC, EC2, ALB, Auto Scaling, RDS, IAM, CloudWatch
+          </p>
+          <!-- Replace href with the specific GitHub repo when ready -->
+          <a href="https://github.com/Jubriladams78" class="project-link">View on GitHub</a>
         </article>
 
         <!-- Project 2 -->
         <article class="project-card">
-          <div class="project-media">🧱</div>
-          <div class="project-content">
-            <h3 class="project-title">Home Lab: Active Directory &amp; Linux Integration</h3>
-            <p class="project-description">
-              Built a mixed Windows and Linux home lab to practice identity, access, and day‑to‑day systems administration.
-            </p>
-            <p class="project-details">
-              <strong>What I did:</strong> Deployed Windows Server for AD DS, DNS, and DHCP. Joined Windows and Linux clients to the domain, created OUs and Group Policies, and set up role‑based file shares. Documented troubleshooting steps for login and name‑resolution issues.
-            </p>
-            <p class="project-tech">
-              <strong>Technologies:</strong> Windows Server, Active Directory, Group Policy, Linux, DNS, DHCP
-            </p>
-            <a href="https://github.com/jubriladams78" class="project-link">View Lab Notes</a>
-          </div>
+          <h3 class="project-title">Infrastructure as Code for AWS VPC</h3>
+          <p class="project-description">
+            Created reusable Terraform configurations to standardize VPCs, subnets, security groups, and EC2 instances across environments.
+          </p>
+          <p class="project-description">
+            Introduced version‑controlled infrastructure, reducing manual setup, configuration drift, and time‑to‑provision new environments.
+          </p>
+          <p class="project-tech">
+            <strong>Tech stack:</strong> Terraform, AWS (VPC, EC2, security groups), Git
+          </p>
+          <a href="https://github.com/Jubriladams78" class="project-link">View on GitHub</a>
         </article>
 
         <!-- Project 3 -->
         <article class="project-card">
-          <div class="project-media">💾</div>
-          <div class="project-content">
-            <h3 class="project-title">AWS S3 Backup &amp; Recovery Automation</h3>
-            <p class="project-description">
-              Implemented automated backups to practice disaster recovery and data protection fundamentals.
-            </p>
-            <p class="project-details">
-              <strong>What I did:</strong> Wrote scripts to sync local or on‑prem data to S3 with versioning and lifecycle policies. Tested restore scenarios and documented RTO/RPO so non‑technical stakeholders can understand recovery expectations.
-            </p>
-            <p class="project-tech">
-              <strong>Technologies:</strong> AWS S3, IAM, Bash, Python, versioning, lifecycle rules
-            </p>
-            <a href="https://github.com/jubriladams78" class="project-link">View Scripts &amp; Docs</a>
-          </div>
+          <h3 class="project-title">CI/CD Pipeline for Demo Application</h3>
+          <p class="project-description">
+            Implemented CI/CD pipelines using GitHub Actions and Jenkins to automate builds, tests, and deployments for a demo app.
+          </p>
+          <p class="project-description">
+            Added basic quality gates and rollback‑capable jobs, improving release consistency and shortening deployment cycles.
+          </p>
+          <p class="project-tech">
+            <strong>Tech stack:</strong> GitHub Actions, Jenkins, Docker, Git
+          </p>
+          <a href="https://github.com/Jubriladams78" class="project-link">View on GitHub</a>
         </article>
 
         <!-- Project 4 -->
         <article class="project-card">
-          <div class="project-media">📡</div>
-          <div class="project-content">
-            <h3 class="project-title">Network Monitoring &amp; Uptime Dashboard</h3>
-            <p class="project-description">
-              Built a lightweight monitoring setup to track service availability and latency for lab systems and cloud resources.
-            </p>
-            <p class="project-details">
-              <strong>What I did:</strong> Created checks for key endpoints, logged response times and status codes, and fed metrics into dashboards. Configured alerts for priority services to practice incident response and runbook‑driven troubleshooting.
-            </p>
-            <p class="project-tech">
-              <strong>Technologies:</strong> Linux, Bash/Python, Prometheus, Grafana
-            </p>
-            <a href="https://github.com/jubriladams78" class="project-link">View Dashboards</a>
-          </div>
+          <h3 class="project-title">Cloud Monitoring &amp; Incident Response Lab</h3>
+          <p class="project-description">
+            Configured metrics, logs, and alerts to build an actionable view of application and infrastructure health in AWS.
+          </p>
+          <p class="project-description">
+            Practiced end‑to‑end incident response using dashboards and runbooks to quickly identify root causes and restore service.
+          </p>
+          <p class="project-tech">
+            <strong>Tech stack:</strong> AWS CloudWatch, log aggregation, alerting, dashboards
+          </p>
+          <a href="https://github.com/Jubriladams78" class="project-link">View on GitHub</a>
         </article>
 
         <!-- Project 5 -->
         <article class="project-card">
-          <div class="project-media">⚙️</div>
-          <div class="project-content">
-            <h3 class="project-title">Intro Infrastructure as Code Lab</h3>
-            <p class="project-description">
-              Used infrastructure as code to provision repeatable AWS environments instead of manual configuration.
-            </p>
-            <p class="project-details">
-              <strong>What I did:</strong> Defined basic VPC, networking, security groups, and EC2 instances in Terraform/CloudFormation. Practiced creating and destroying environments and versioning changes in Git.
-            </p>
-            <p class="project-tech">
-              <strong>Technologies:</strong> Terraform, CloudFormation, AWS, Git
-            </p>
-            <a href="https://github.com/jubriladams78" class="project-link">View IaC Code</a>
-          </div>
+          <h3 class="project-title">Linux &amp; Windows Systems Administration Lab</h3>
+          <p class="project-description">
+            Built a mixed Linux and Windows environment to practice patching, hardening, access management, and backup strategy.
+          </p>
+          <p class="project-description">
+            Documented repeatable procedures for user onboarding, updates, and recovery to mirror real service‑desk and sysadmin work.
+          </p>
+          <p class="project-tech">
+            <strong>Tech stack:</strong> Linux (RHEL, Ubuntu), Windows Server, Active Directory, backup tools
+          </p>
+          <a href="https://github.com/Jubriladams78" class="project-link">View on GitHub</a>
         </article>
 
-        <!-- Project 6 (placeholder
+        <!-- Project 6 -->
+        <article class="project-card">
+          <h3 class="project-title">Healthcare IT Support &amp; EHR Environment</h3>
+          <p class="project-description">
+            Supported EHR and healthcare applications, focusing on uptime, secure access, and clinician productivity.
+          </p>
+          <p class="project-description">
+            Resolved login and workflow issues, maintained access controls, and upheld HIPAA requirements for patient data.
+          </p>
+          <p class="project-tech">
+            <strong>Tech stack:</strong> EHR systems, Windows, networking, HIPAA, access control
+          </p>
+          <a href="https://github.com/Jubriladams78" class="project-link">View supporting docs</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-about">
+      <header class="section-header">
+        <h2>About</h2>
+      </header>
+      <div class="about-layout">
+        <p class="about-text">
+          Cloud Support Engineer and Systems Administrator with a background in healthcare IT and cloud infrastructure. 
+          Comfortable owning issues from first alert to resolution, collaborating with cross‑functional teams, and documenting clear runbooks and procedures.
+        </p>
+        <ul class="about-points">
+          <li>4+ years supporting cloud and on‑prem environments across AWS, Azure, Linux, and Windows.</li>
+          <li>Experience reducing cloud costs, improving uptime, and automating repetitive provisioning tasks.</li>
+          <li>Strong focus on security, compliance, and reliable operations in regulated environments.</li>
+          <li>Enjoys mentoring users, simplifying complex topics, and leaving systems better documented than they were found.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-contact">
+      <header class="section-header">
+        <h2>Contact</h2>
+        <p>If this experience aligns with your team, use the form or contact details below to connect.</p>
+      </header>
+      <div class="contact-layout">
+        <!-- Contact Form -->
+        <form class="contact-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <!-- Contact Details -->
+        <div class="contact-details">
+          <h3>Contact Details</h3>
+          <p><strong>Email:</strong> <a href="mailto:adam.jubril78@gmail.com">adam.jubril78@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:224-474-0556">224‑474‑0556</a></p>
+          <p><strong>Location:</strong> Palatine, IL, USA</p>
+          <h3>Connect</h3>
+          <ul class="contact-links">
+            <li><a href="https://www.linkedin.com/in/jubriladams">LinkedIn</a></li>
+            <li><a href="https://github.com/Jubriladams78">GitHub</a></li>
+            <li><a href="mailto:adam.jubril78@gmail.com">Email Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/jubriladams" class="footer-icon-link">LinkedIn</a>
+        <a href="https://github.com/Jubriladams78" class="footer-icon-link">GitHub</a>
+        <a href="mailto:adam.jubril78@gmail.com" class="footer-icon-link">Email</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Jubril Adams. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
